@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>xkstart</title>
+  <title>夏</title>
   
+  <subtitle>一晴方知夏生</subtitle>
+  <link href="https://www.xkstart.xyz/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2021-06-24T15:07:48.492Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://www.xkstart.xyz/"/>
+  <updated>2021-06-25T08:18:45.719Z</updated>
+  <id>https://www.xkstart.xyz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>xkstart</name>
     
   </author>
   
@@ -18,44 +18,139 @@
   
   <entry>
     <title>HelloMarkdown</title>
-    <link href="http://example.com/2021/06/24/HelloMarkdown/"/>
-    <id>http://example.com/2021/06/24/HelloMarkdown/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqcaeuqz00013kn08wioggm0/"/>
+    <id>https://www.xkstart.xyz/2021/ckqcaeuqz00013kn08wioggm0/</id>
     <published>2021-06-24T14:22:00.000Z</published>
-    <updated>2021-06-24T15:07:48.492Z</updated>
-    
-    <content type="html"><![CDATA[<hr><h2 id="title-Hello-World"><a href="#title-Hello-World" class="headerlink" title="title: Hello World"></a>title: Hello World</h2><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <updated>2021-06-25T08:18:45.719Z</updated>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;title-Hello-World&quot;&gt;&lt;a href=&quot;#title-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;title: Hello World&quot;&gt;&lt;/a&gt;title: Hello World&lt;/h2&gt;&lt;p&gt;Wel</summary>
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
       
     
     
     
+    <category term="技术" scheme="https://www.xkstart.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="Basic Markdown Syntax" scheme="http://example.com/tags/Basic-Markdown-Syntax/"/>
+    
+    <category term="Markdown" scheme="https://www.xkstart.xyz/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown测试</title>
+    <link href="https://www.xkstart.xyz/2021/ckqcaeurh00093kn0epzf3s0f/"/>
+    <id>https://www.xkstart.xyz/2021/ckqcaeurh00093kn0epzf3s0f/</id>
+    <published>2021-06-24T09:07:11.000Z</published>
+    <updated>2021-06-25T08:22:47.912Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;1-斜体和粗体&quot;&gt;&lt;a href=&quot;#1-斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;1. 斜体和粗体&quot;&gt;&lt;/a&gt;1. 斜体和粗体&lt;/h3&gt;&lt;p&gt;使用 * 和 ** 表示斜体和粗体。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;这是 &lt;em&gt;斜体&lt;/em&gt;，这是 &lt;strong&gt;粗体&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="测试" scheme="https://www.xkstart.xyz/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="测试" scheme="https://www.xkstart.xyz/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/06/24/hello-world/"/>
-    <id>http://example.com/2021/06/24/hello-world/</id>
-    <published>2021-06-24T10:41:07.323Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <link href="https://www.xkstart.xyz/2021/ckqcaeure00073kn020wf9yph/"/>
+    <id>https://www.xkstart.xyz/2021/ckqcaeure00073kn020wf9yph/</id>
+    <published>2021-06-23T14:22:00.000Z</published>
+    <updated>2021-06-25T08:19:33.337Z</updated>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
       
     
     
     
+    <category term="技术" scheme="https://www.xkstart.xyz/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="hexo" scheme="https://www.xkstart.xyz/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="https://www.xkstart.xyz/2019/about/"/>
+    <id>https://www.xkstart.xyz/2019/about/</id>
+    <published>2019-12-01T13:37:04.000Z</published>
+    <updated>2021-06-25T11:04:25.707Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;一个和自己过不去的秃头少年。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;姓名：xk&lt;br&gt;现居：湖北&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/yueshang-anran&quot;&gt;yueshang-anran&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="https://www.xkstart.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>静享云南慢时光</title>
+    <link href="https://www.xkstart.xyz/2018/yunnan/"/>
+    <id>https://www.xkstart.xyz/2018/yunnan/</id>
+    <published>2018-11-20T16:17:37.000Z</published>
+    <updated>2021-06-25T11:10:08.194Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;当我坐着飞机掠过玉龙雪山，当我拿着杯子舀起泸沽湖水，当我沐浴阳光闻着洱海气息，当我立于海埂大坝望着海鸥随风翱翔，当我骑着自行车与彝族寨子擦肩而过……当我真正踏入这片土地，我发现它不仅仅是适合文艺小资青年，更适合热爱山水，热爱自由的背包客。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="旅行" scheme="https://www.xkstart.xyz/categories/%E6%97%85%E8%A1%8C/"/>
+    
+    <category term="国内" scheme="https://www.xkstart.xyz/categories/%E6%97%85%E8%A1%8C/%E5%9B%BD%E5%86%85/"/>
+    
+    
+    <category term="旅行" scheme="https://www.xkstart.xyz/tags/%E6%97%85%E8%A1%8C/"/>
+    
+    <category term="国内" scheme="https://www.xkstart.xyz/tags/%E5%9B%BD%E5%86%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手机摄影学习笔记</title>
+    <link href="https://www.xkstart.xyz/2016/shoujisheying/"/>
+    <id>https://www.xkstart.xyz/2016/shoujisheying/</id>
+    <published>2016-09-07T07:06:00.000Z</published>
+    <updated>2021-06-25T11:11:01.048Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;焦距&quot;&gt;&lt;a href=&quot;#焦距&quot; class=&quot;headerlink&quot; title=&quot;焦距&quot;&gt;&lt;/a&gt;焦距&lt;/h2&gt;&lt;p&gt;1.广角：28mm，长焦800&lt;br&gt;2.光圈&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="摄影" scheme="https://www.xkstart.xyz/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+    <category term="随笔" scheme="https://www.xkstart.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="学习" scheme="https://www.xkstart.xyz/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="摄影" scheme="https://www.xkstart.xyz/tags/%E6%91%84%E5%BD%B1/"/>
     
   </entry>
   
