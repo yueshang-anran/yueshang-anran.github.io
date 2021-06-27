@@ -6,7 +6,7 @@
   <link href="https://www.xkstart.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.xkstart.xyz/"/>
-  <updated>2021-06-25T08:18:45.719Z</updated>
+  <updated>2021-06-27T09:35:12.621Z</updated>
   <id>https://www.xkstart.xyz/</id>
   
   <author>
@@ -17,9 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>About Me</title>
+    <link href="https://www.xkstart.xyz/2021/about/"/>
+    <id>https://www.xkstart.xyz/2021/about/</id>
+    <published>2021-08-20T13:37:04.000Z</published>
+    <updated>2021-06-27T09:35:12.621Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;一个和自己过不去的秃头少年。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;姓名：xk&lt;br&gt;现居：湖北&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/yueshang-anran&quot;&gt;yueshang-anran&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="about me" scheme="https://www.xkstart.xyz/tags/about-me/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>network</title>
+    <link href="https://www.xkstart.xyz/2021/ckqf0zpsw00192gn0cbi62jt5/"/>
+    <id>https://www.xkstart.xyz/2021/ckqf0zpsw00192gn0cbi62jt5/</id>
+    <published>2021-06-26T06:12:22.000Z</published>
+    <updated>2021-06-27T05:23:20.739Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://www.xkstart.xyz/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="计算机网络" scheme="https://www.xkstart.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HelloMarkdown</title>
-    <link href="https://www.xkstart.xyz/2021/ckqcami7j00013gn07he7ayy3/"/>
-    <id>https://www.xkstart.xyz/2021/ckqcami7j00013gn07he7ayy3/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqf0zps000032gn02ktw0vf9/"/>
+    <id>https://www.xkstart.xyz/2021/ckqf0zps000032gn02ktw0vf9/</id>
     <published>2021-06-24T14:22:00.000Z</published>
     <updated>2021-06-25T08:18:45.719Z</updated>
     
@@ -43,10 +88,10 @@
   
   <entry>
     <title>Markdown测试</title>
-    <link href="https://www.xkstart.xyz/2021/ckqcami7x00093gn0bwvvarnp/"/>
-    <id>https://www.xkstart.xyz/2021/ckqcami7x00093gn0bwvvarnp/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqf0zps800092gn032629y17/"/>
+    <id>https://www.xkstart.xyz/2021/ckqf0zps800092gn032629y17/</id>
     <published>2021-06-24T09:07:11.000Z</published>
-    <updated>2021-06-25T08:22:47.912Z</updated>
+    <updated>2021-06-26T06:07:52.454Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;hr&gt;
@@ -64,11 +109,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://www.xkstart.xyz/2021/ckqcami7n00033gn03v8f48um/"/>
-    <id>https://www.xkstart.xyz/2021/ckqcami7n00033gn03v8f48um/</id>
+    <title>Hello Hexo</title>
+    <link href="https://www.xkstart.xyz/2021/ckqf0zprw00012gn0g1yz764t/"/>
+    <id>https://www.xkstart.xyz/2021/ckqf0zprw00012gn0g1yz764t/</id>
     <published>2021-06-23T14:22:00.000Z</published>
-    <updated>2021-06-25T08:19:33.337Z</updated>
+    <updated>2021-06-27T09:48:07.150Z</updated>
     
     
       
@@ -89,19 +134,53 @@
   </entry>
   
   <entry>
-    <title>About Me</title>
-    <link href="https://www.xkstart.xyz/2019/about/"/>
-    <id>https://www.xkstart.xyz/2019/about/</id>
-    <published>2019-12-01T13:37:04.000Z</published>
-    <updated>2021-06-25T11:04:25.707Z</updated>
+    <title>手机摄影学习笔记</title>
+    <link href="https://www.xkstart.xyz/2021/shoujisheying/"/>
+    <id>https://www.xkstart.xyz/2021/shoujisheying/</id>
+    <published>2021-06-07T07:06:00.000Z</published>
+    <updated>2021-06-27T09:38:41.201Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;一个和自己过不去的秃头少年。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;姓名：xk&lt;br&gt;现居：湖北&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/yueshang-anran&quot;&gt;yueshang-anran&lt;/a&gt;&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
     
     
+    
+    <category term="摄影" scheme="https://www.xkstart.xyz/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+    <category term="学习" scheme="https://www.xkstart.xyz/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="随笔" scheme="https://www.xkstart.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="摄影" scheme="https://www.xkstart.xyz/tags/%E6%91%84%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎</title>
+    <link href="https://www.xkstart.xyz/2020/welcome/"/>
+    <id>https://www.xkstart.xyz/2020/welcome/</id>
+    <published>2020-12-12T04:12:12.000Z</published>
+    <updated>2021-06-27T09:47:10.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.xkstart.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
     <category term="随笔" scheme="https://www.xkstart.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
@@ -110,13 +189,13 @@
   
   <entry>
     <title>静享云南慢时光</title>
-    <link href="https://www.xkstart.xyz/2018/yunnan/"/>
-    <id>https://www.xkstart.xyz/2018/yunnan/</id>
-    <published>2018-11-20T16:17:37.000Z</published>
-    <updated>2021-06-25T11:10:08.194Z</updated>
+    <link href="https://www.xkstart.xyz/2020/yunnan/"/>
+    <id>https://www.xkstart.xyz/2020/yunnan/</id>
+    <published>2020-11-20T16:17:37.000Z</published>
+    <updated>2021-06-27T09:33:54.519Z</updated>
     
     
-    <summary type="html">&lt;p&gt;当我坐着飞机掠过玉龙雪山，当我拿着杯子舀起泸沽湖水，当我沐浴阳光闻着洱海气息，当我立于海埂大坝望着海鸥随风翱翔，当我骑着自行车与彝族寨子擦肩而过……当我真正踏入这片土地，我发现它不仅仅是适合文艺小资青年，更适合热爱山水，热爱自由的背包客。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;从云南回来正好一个月的时间，决定在还没有遗忘旅行的细节前将这次云南之旅记录下来，毕竟这是难得的一次全程由自己做攻略的旅行经历。尽量以时间线的顺序进行记录，防止遗漏，过程可能有流水账之嫌，事无巨细，哈哈哪怕没人看我想我们两个看的时候都会笑出声，尤其是以我的zz小伙伴那种老年痴呆患者的记性。整个旅途我们可以说是很舒服很愉快的，但依旧有值得注意的地方。&lt;/p&gt;</summary>
     
     
     
@@ -128,29 +207,6 @@
     <category term="旅行" scheme="https://www.xkstart.xyz/tags/%E6%97%85%E8%A1%8C/"/>
     
     <category term="国内" scheme="https://www.xkstart.xyz/tags/%E5%9B%BD%E5%86%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机摄影学习笔记</title>
-    <link href="https://www.xkstart.xyz/2016/shoujisheying/"/>
-    <id>https://www.xkstart.xyz/2016/shoujisheying/</id>
-    <published>2016-09-07T07:06:00.000Z</published>
-    <updated>2021-06-25T11:11:01.048Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;焦距&quot;&gt;&lt;a href=&quot;#焦距&quot; class=&quot;headerlink&quot; title=&quot;焦距&quot;&gt;&lt;/a&gt;焦距&lt;/h2&gt;&lt;p&gt;1.广角：28mm，长焦800&lt;br&gt;2.光圈&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="摄影" scheme="https://www.xkstart.xyz/categories/%E6%91%84%E5%BD%B1/"/>
-    
-    
-    <category term="随笔" scheme="https://www.xkstart.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-    <category term="学习" scheme="https://www.xkstart.xyz/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="摄影" scheme="https://www.xkstart.xyz/tags/%E6%91%84%E5%BD%B1/"/>
     
   </entry>
   

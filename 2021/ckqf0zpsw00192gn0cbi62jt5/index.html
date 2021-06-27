@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+       
+      <meta name="keywords" content="生活，旅行，思考，代码，博客" />
+       
+      <meta name="description" content="个人博客网站" />
+      
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>network |  夏</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/favicon.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css"
+      />
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+       
+ 
+
+      <!-- mermaid -->
+      
+    <link rel="alternate" href="/atom.xml" title="夏" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-network"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  network
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/ckqf0zpsw00192gn0cbi62jt5/" class="article-date">
+  <time datetime="2021-06-26T06:12:22.000Z" itemprop="datePublished">2021-06-26</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">5.2k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">18 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>之前也学过计算机网络，那时候疫情在家上的网课，没怎么认真学。一直也没有太把这个当回事，上个月面试被问到了这个，当时连网络有哪些层都答不上来，就挺尴尬的。前几天，在知乎刷到，有人推荐<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1c4411d7jb?p=1">湖南科技大学的计算机网络课程</a>很不错，就趁着周末空闲学了一下，然后写下了这份笔记。笔记里的所有图片都是我在视频里截图的，笔记不对网络涉及的算法深究，由于我不考研，也就没有必要死记住那些网络中涉及的参数、视频中出现的考研题目和各协议的报文格式（我可没有背书的天赋）。</p>
+<h2 id="1-概况"><a href="#1-概况" class="headerlink" title="1. 概况"></a>1. 概况</h2><h3 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160531889.png" alt="image-20210515160531889"></p>
+<p>​    报文传输已经很少使用了，因为需要路由器一次缓存所有数据，现在的数据都挺大的，这种缓存的行为很不友好。</p>
+<p>​    分组传输可以看成报文传输的分割版。</p>
+<h3 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160818295.png" alt="image-20210515160818295"></p>
+<h4 id="解释"><a href="#解释" class="headerlink" title="解释"></a>解释</h4><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160948260.png" alt="image-20210515160948260"></p>
+<ul>
+<li><p>物理层</p>
+<p>​    采用怎样的物理接口</p>
+</li>
+<li><p>数据链路层</p>
+<p>​    数据在链路上将怎样传输</p>
+</li>
+<li><p>网络层</p>
+<p>​    如何识别各网络中的各主机</p>
+</li>
+<li><p>运输层</p>
+<p>​    解决进程之间基于网络的通信问题（即：发过来的包要给那个进程呢）</p>
+</li>
+<li><p>应用层</p>
+<p>​    按照协议标准编写应用程序</p>
+</li>
+</ul>
+<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515170517893.png" alt="image-20210515170517893"></p>
+<p>路由器没有应用程序，所以少了上面两层</p>
+<h4 id="else"><a href="#else" class="headerlink" title="else"></a>else</h4><p><em><strong>协议是水平的，服务是垂直的。</strong></em></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515171703810.png" alt="image-20210515171703810"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515172037421.png" alt="image-20210515172037421"></p>
+<h3 id="结合现实"><a href="#结合现实" class="headerlink" title="结合现实"></a>结合现实</h3><ul>
+<li><p>卖家宣传的GB容量是用十进制算出来的，即 1GB = 1000MB，而不是 1GB = $2^{10}$MB，所以买回来的东西会缺斤少两</p>
+</li>
+<li><p>家里的带宽省略了末尾的比特每秒，如经常说的1000M的宽带，其实是最高速率为1000Mb/s。并不是带宽多高你就能享用多高的速率的，速率由设备里最小速率决定的。</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515201819397.png" alt="image-20210515201819397"></p>
+</li>
+</ul>
+<h2 id="2-物理层"><a href="#2-物理层" class="headerlink" title="2. 物理层"></a>2. 物理层</h2><h3 id="物理层解决的问题"><a href="#物理层解决的问题" class="headerlink" title="物理层解决的问题"></a>物理层解决的问题</h3><p>​    解决比特0和1在线路上传输的问题    </p>
+<h3 id="传输媒体"><a href="#传输媒体" class="headerlink" title="传输媒体"></a>传输媒体</h3><ul>
+<li><p>导引型传输媒体（就是用 ”线“ ）</p>
+<blockquote>
+<p>同轴电缆、双绞线、光纤、电力线等</p>
+</blockquote>
+</li>
+<li><p>非导引型传输媒体（最常见的使用就是WIFI了）</p>
+<blockquote>
+<p>无线电波、红外线、可见光等</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="结合现实-1"><a href="#结合现实-1" class="headerlink" title="结合现实"></a>结合现实</h3><ul>
+<li>双绞线的选购</li>
+</ul>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515202301345.png" alt="image-20210515202301345"></p>
+<ul>
+<li><p>电台</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515204716886.png" alt="image-20210515204716886"></p>
+</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515205552329.png" alt="image-20210515205552329"></p>
+<h2 id="3-数据链路层"><a href="#3-数据链路层" class="headerlink" title="3.数据链路层"></a>3.数据链路层</h2><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>​    数据链路层一帧为单位传输和处理数据</p>
+<h3 id="封装成帧"><a href="#封装成帧" class="headerlink" title="封装成帧"></a>封装成帧</h3><p>​    给上层交付的协议数据单元添加帧头和帧尾使之成为帧</p>
+<p>数据链路层特点：透明传输（即上层可以传输任何数据，就算上层传输的数据包含帧头或帧尾，数据链路层也能通过某些方法识别出正确的 帧 ）<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1c4411d7jb?p=22">视频详解</a></p>
+<h3 id="差错检测"><a href="#差错检测" class="headerlink" title="差错检测"></a>差错检测</h3><ul>
+<li>奇偶校验</li>
+<li>循环冗余校验</li>
+</ul>
+<h3 id="可靠传输"><a href="#可靠传输" class="headerlink" title="==可靠传输=="></a>==可靠传输==</h3><blockquote>
+<ul>
+<li><p>运输层</p>
+<ul>
+<li>TCP向其上层提供面向连接的可靠传输服务</li>
+<li>UDP向其上层提供无连接、不可靠传输服务</li>
+</ul>
+</li>
+<li><p>网际层</p>
+<ul>
+<li>IP向其上层提供无连接、不可靠传输服务</li>
+</ul>
+</li>
+<li><p>网络接口层</p>
+<ul>
+<li>使用PPP协议的数据链路层==向上不提供可靠传输服务==</li>
+<li>802.11无线局域网要求数据链路层实现可靠传输</li>
+<li>以太网不要求数据链路层实现可靠传输</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="可靠传输的实现机制"><a href="#可靠传输的实现机制" class="headerlink" title="可靠传输的实现机制"></a>可靠传输的实现机制</h4><ul>
+<li><p>停止-等待协议SW</p>
+<ul>
+<li>信道利用率很低</li>
+</ul>
+</li>
+<li><p>回退N帧协议GBN</p>
+<ul>
+<li>就是搞了两个窗口进行发送的控制</li>
+<li>由于回退N帧协议的特性,当通信线路质量不好时,其信道利用率井不比停止-等待协议高。</li>
+</ul>
+</li>
+<li><p>选择重传协议SR</p>
+<ul>
+<li>接收窗口尺寸不应该大于发送窗口</li>
+</ul>
+</li>
+</ul>
+<h3 id="MAC地址"><a href="#MAC地址" class="headerlink" title="MAC地址"></a>MAC地址</h3><p>一般情况下，用户主机会包含两个网络适配器：有线局域网适配器（<strong>有线网卡</strong>）和无线局域网适配器（<strong>无线网卡</strong>)。每个网络适配器都有一个全球唯一的MAC地址。而交换机和路由器往往拥有更多的网络接口，所以会拥有更多的MAC地址。综上所述，==严格来说，MAC地址是对网络上各接口的唯一标识，而不是对网络上各设备的唯一标识==。如：电脑上的以太网接口、WiFi接口、蓝牙接口等，都各分配了一个单播MAC地址。</p>
+<h3 id="IP地址"><a href="#IP地址" class="headerlink" title="IP地址"></a>IP地址</h3><ul>
+<li>IP地址是因特网(Internet)上的主机和路由器所使用的地址，用于标识两部分信息：<ul>
+<li>网络编号：标识因特网上数以百万计的网络</li>
+<li>主机编号：标识同一网络上不同主机（或路由器各接口）</li>
+</ul>
+</li>
+</ul>
+<p>很显然MAC地址不具备区分不同网络的功能，但是IP地址可以。</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516143544408.png" alt="image-20210516143544408"></p>
+<p>疑问：</p>
+<p>​    设备怎么知道 下一跳的MAC地址为多少呢？即如何通过IP地址找到其对应的MAC地址？</p>
+<h3 id="地址解析协议ARP（网际层）"><a href="#地址解析协议ARP（网际层）" class="headerlink" title="地址解析协议ARP（网际层）"></a>地址解析协议ARP（网际层）</h3><ul>
+<li>源主机在自己的ARP高速缓存表中查找目的主机的IP地址所对应的MAC地址，若找到了，则可以封装MAC帧进行发送；若找不到，则发送ARP请求(封装在广播MAC帧中)</li>
+<li>目的主机收到ARP请求后，将源主机的IP地址与MAC地址记录到自己的ARP高速缓存表中，然后给源主机发送ARP响应(封装在单播MAC帧中)，ARP响应中包含有目的主机的IP地址和MAC地址</li>
+<li>源主机收到ARP响应后，将目的主机的IP地址与MAC地址记录到自己的ARP高速缓存表中，然后就可以封装之前想发送的MAC帧并发送给目的主机</li>
+<li><em>其实就是在网络里喊一声谁认识这个IP地址</em></li>
+</ul>
+<h3 id="集线器和交换机"><a href="#集线器和交换机" class="headerlink" title="集线器和交换机"></a>集线器和交换机</h3><ul>
+<li>集线器==只工作在物理层==，它的每个接口仅简单地转发比特，不进行碰撞检测(由各站的网卡检测)；集线器会将单播帧传输到总线上的各个主机。</li>
+<li>交换机工作在物理层和数据链路层；交换机会将单播帧转发给目的主机，而不是发给网络中的其他各个主机</li>
+</ul>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516151821850.png" alt="image-20210516151821850"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516152124738.png" alt="image-20210516152124738"></p>
+<h3 id="生成树协议STP"><a href="#生成树协议STP" class="headerlink" title="生成树协议STP"></a>生成树协议STP</h3><ul>
+<li>以太网交换机使用生成树协议STP(Spanning Tree Protocol)，可以在增加冗余链路来提高网络可靠性的同时又避免网络环路带来的各种问题。<ul>
+<li>不论交换机之间采用怎样的物理连接，交换机都能够自动计算并构建一个逻辑上没有环路的网络，其逻辑拓扑结构必须是树型的（无逻辑环路）</li>
+<li>当首次连接交换机或网络物理拓扑发生变化时（有可能是人为改变或故障），交换机都将进行生成树的重新计算。</li>
+</ul>
+</li>
+</ul>
+<h3 id="虚拟局域网VLAN"><a href="#虚拟局域网VLAN" class="headerlink" title="虚拟局域网VLAN"></a>虚拟局域网VLAN</h3><p>虚拟局域网VLAN（Virtual Local Area Network）是一种将局域网内的设备划分成与物理位置无关的逻辑组的技术，这些逻辑组具有某些共同的需求。</p>
+<p>具体实现略</p>
+<h2 id="4-网络层"><a href="#4-网络层" class="headerlink" title="4.网络层"></a>4.网络层</h2><h3 id="概述-1"><a href="#概述-1" class="headerlink" title="概述"></a>概述</h3><ul>
+<li>网络层的主要任务是实现网络互连，进而实现数据包在各网络之间的传输。</li>
+</ul>
+<h3 id="网络层提供的两种服务"><a href="#网络层提供的两种服务" class="headerlink" title="网络层提供的两种服务"></a>网络层提供的两种服务</h3><ul>
+<li>面向连接的虚电路服务（不流行了）</li>
+<li>无连接的数据报服务（主流）</li>
+</ul>
+<h3 id="IP"><a href="#IP" class="headerlink" title="IP"></a>IP</h3><h4 id="分类编址的IPv4地址"><a href="#分类编址的IPv4地址" class="headerlink" title="分类编址的IPv4地址"></a>分类编址的IPv4地址</h4><ul>
+<li><p>A类地址（0开头）</p>
+<ul>
+<li>8位网络号，24位主机号</li>
+</ul>
+</li>
+<li><p>B类地址（10开头）</p>
+<ul>
+<li>16位网络号，16位主机号</li>
+</ul>
+</li>
+<li><p>C类地址（110开头）</p>
+<ul>
+<li>24位网络号，8位主机号</li>
+</ul>
+</li>
+<li><p>D类地址（1110开头）</p>
+<ul>
+<li>多播地址</li>
+</ul>
+</li>
+<li><p>E类地址（1111开头）</p>
+<ul>
+<li>保留为今后使用</li>
+</ul>
+</li>
+</ul>
+<h4 id="划分子网的IPv4地址"><a href="#划分子网的IPv4地址" class="headerlink" title="划分子网的IPv4地址"></a>划分子网的IPv4地址</h4><p>​    为了解决IP地址浪费的问题而生；在分类编址的IPv4地址的基础上划分子网。</p>
+<h5 id="子网掩码"><a href="#子网掩码" class="headerlink" title="子网掩码"></a>子网掩码</h5><ul>
+<li><p>32比特的子网掩码可以表明分类IP地址的主机号部分被借用了几个比特作为子网号</p>
+<ul>
+<li>子网掩码使用连续的比特1来对应网络号和子网号</li>
+<li>子网掩码使用连续的比特0来对应主机号</li>
+<li>将划分子网的IPv4地址与其相应的子网掩码进行逻辑与运算就可得到IPv4地址所在子网的网络地址</li>
+</ul>
+<p>主机号全为0 为 该网络的 <strong>网络地址</strong></p>
+<p>主机号全为1 为 该网络的 <strong>广播地址</strong></p>
+<p>这两个地址是不能分配出去的</p>
+</li>
+</ul>
+<h4 id="无分类编址的IPv4地址"><a href="#无分类编址的IPv4地址" class="headerlink" title="无分类编址的IPv4地址"></a>无分类编址的IPv4地址</h4><ul>
+<li><p>1993年，IETF发布了无分类域间路由选择CIDR（Classless Inter-Domain Routing）</p>
+</li>
+<li><p>CIDR使用“斜线记法”，或称CIDR记法。即在IPv4地址后面加上斜线“/”，在斜线后面写上网络前缀所占的比特数量。</p>
+<ul>
+<li>【举例】128.14.35.7 / 20</li>
+</ul>
+</li>
+<li><p>路由聚合（构造超网）</p>
+<ul>
+<li>就是找到共同前缀</li>
+</ul>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516165427256.png" alt="image-20210516165427256"></p>
+</li>
+<li><p>网络前缀越长，地址块越小，路由越具体</p>
+</li>
+<li><p>若路由器查表转发分组时发现有多条路由可选，则选择网络前缀最长的那条，这称为最长前缀匹配，因为这样的路由更具体</p>
+</li>
+</ul>
+<h4 id="IP数据报的发送和转发"><a href="#IP数据报的发送和转发" class="headerlink" title="IP数据报的发送和转发"></a>IP数据报的发送和转发</h4><ul>
+<li><p>主机发送IP数据报</p>
+<ul>
+<li>为主机指定一个路由器帮忙转发IP数据报，这个路由器的地址称为：默认网关</li>
+</ul>
+</li>
+<li><p>路由器转发IP数据报</p>
+<ul>
+<li><p>检查IP数据报首部是否出错</p>
+<ul>
+<li>若出错，则直接丢弃该IP数据报并通告源主机</li>
+<li>若没有出错，则进行转发</li>
+</ul>
+</li>
+<li><p>根据IP数据报的目的地址在路由表中查找匹配的条目</p>
+<ul>
+<li>若找到匹配的条目，则转发给条目中指示的下一跳</li>
+<li>若找不到，则丢弃该IP数据报并通告源主机</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><code>路由器是隔离广播域的，并不会转发广播IP数据报</code></p>
+<blockquote>
+<p>中继器和集线器工作在物理层，既不隔离冲突域也不隔离广播域。</p>
+<p>网桥和交换机(多端口网桥)工作在数据链路层，可以隔离冲突域，不能隔离广播域。</p>
+<p>路由器工作在网络层,既隔离冲突域，也隔离广播域。</p>
+</blockquote>
+<h4 id="一些特殊的IP地址"><a href="#一些特殊的IP地址" class="headerlink" title="一些特殊的IP地址"></a>一些特殊的IP地址</h4><ul>
+<li>地址 0.0.0.0<ul>
+<li>只能作为源地址使用，表示“在本网络上的本主机”。封装有DHCP Discovery报文的IP分组的源地址使用0.0.0.0</li>
+</ul>
+</li>
+<li>地址127.0.0.1（也可以在浏览器中打成localhost）<ul>
+<li>以127开头且后面三个字节非“全0”或“全1”的IP地址是一类特殊的IPv4地址，既可以作为源地址使用，也可以作为目的地址使用，用于本地软件环回测试，例如常用的环回测试地址127.0.0.1；</li>
+</ul>
+</li>
+<li>地址255.255.255.255<ul>
+<li>只能作为目的地址使用，表示“只在本网络上进行广播(各路由器均不转发)”。</li>
+</ul>
+</li>
+</ul>
+<h3 id="路由选择协议"><a href="#路由选择协议" class="headerlink" title="路由选择协议"></a>路由选择协议</h3><ul>
+<li>内部网关协议<ul>
+<li>路由信息协议RIP</li>
+<li>开放最短路径优先协议SOPF</li>
+</ul>
+</li>
+<li>外部网关协议<ul>
+<li>边界网关协议BGP</li>
+<li>BGP只能是力求寻找一条能够到达目的网络且比较好的路由（不能兜圈子），而并非要寻找一条最佳路由</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516202400420.png" alt="image-20210516202400420"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210516202947446.png" alt="image-20210516202947446"></p>
+<h3 id="ICMP"><a href="#ICMP" class="headerlink" title="ICMP"></a>ICMP</h3><blockquote>
+<p>全称：网际控制报文协议</p>
+</blockquote>
+<h4 id="五种ICMP差错报告报文"><a href="#五种ICMP差错报告报文" class="headerlink" title="五种ICMP差错报告报文"></a>五种ICMP差错报告报文</h4><ul>
+<li>终点不可达：当路由器或主机不能交付数据报时，就向源点发送终点不可达报文。具体可再根据ICMP的代码字段细分为目的网络不可达、目的主机不可达、目的协议不可达、目的端口不可达、目的网络未知、目的主机未知等13种错误。</li>
+<li>源点抑制：当路由器或主机由于拥塞而丢弃数据报时，就向源点发送源点抑制报文，使源点知道应当把数据报的发送速率放慢。</li>
+<li>时间超过：<ul>
+<li>当路由器收到一个目的IP地址不是自己的IP数据报，会将其生存时间TTL字段的值减1。</li>
+<li>若结果不为0，则将该IP数据报转发出去；若结果为0，除丢弃该IP数据报外，还要向源点发送时间超过报文。</li>
+<li>另外，当终点在预先规定的时间内不能收到一个数据报的全部数据报片时，就把已收到的数据报片都丢弃，也会向源点发送时间超过报文。</li>
+</ul>
+</li>
+<li>参数问题：当路由器或目的主机收到IP数据报后，根据其首部中的检验和字段发现首部在传输过程中出现了误码，就丢弃该数据报，并向源点发送参数问题报文。</li>
+<li>改变路由（重定向）：路由器把改变路由报文发送给主机，让主机知道下次应将数据报发送给另外的路由器（可通过更好的路由）。</li>
+</ul>
+<h4 id="两种常用的ICMP询问报文"><a href="#两种常用的ICMP询问报文" class="headerlink" title="两种常用的ICMP询问报文"></a>两种常用的ICMP询问报文</h4><ul>
+<li>回送请求和回答</li>
+<li>时间戳请求和回答</li>
+</ul>
+<h4 id="ICMP应用举例"><a href="#ICMP应用举例" class="headerlink" title="ICMP应用举例"></a>ICMP应用举例</h4><ul>
+<li>分组网间探测（ping命令）</li>
+<li>跟踪路由（在windows中是tracert命令）</li>
+</ul>
+<h3 id="VPN和NAT"><a href="#VPN和NAT" class="headerlink" title="VPN和NAT"></a>VPN和NAT</h3><p>​    虚拟专用网VPN：利用公用的因特网作为本机构各专用网之间的通信载体，这样的专用网又称为虚拟专用网。</p>
+<p>​    网络地址转换NAT：NAT能使大量使用内部专用地址的专用网络用户共享少量外部全球地址来访问因特网上的主机和资源。</p>
+<h2 id="5-运输层"><a href="#5-运输层" class="headerlink" title="5.运输层"></a>5.运输层</h2><h3 id="概述-2"><a href="#概述-2" class="headerlink" title="概述"></a>概述</h3><ul>
+<li>运输层直接为应用进程间的逻辑通信提供服务</li>
+</ul>
+<h3 id="运输层端口号"><a href="#运输层端口号" class="headerlink" title="运输层端口号"></a>运输层端口号</h3><ul>
+<li>端口号：TCP/IP体系的运输层使用端口号来区分应用层的不同应用进程。（取值范围：0~65535）<ul>
+<li>熟知端口号:0~1023，IANA把这些端口号指派给了TCP/IP体系中最重要的一些应用协议，例如：FTP使用21/20，HTTP使用80，DNS使用53。</li>
+<li>登记端口号：1024~49151，为没有熟知端口号的应用程序使用。使用这类端口号必须在IANA按照规定的手续登记，以防止重复。例如：mysql默认端口号：3306（这是可以改的）。</li>
+<li>短暂端口号：49152~65535，留给客户进程选择暂时使用。当服务器进程收到客户进程的报文时，就知道了客户进程所使用的动态端口号。通信结束后，这个端口号可供其他客户进程以后使用。</li>
+</ul>
+</li>
+</ul>
+<p>==端口号只具有本地意义，即端口号只是为了标识本计算机应用层中的各进程，在因特网中，不同计算机中的相同端口号是没有联系的。==</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517090959873.png" alt="image-20210517090959873"></p>
+<h3 id="UDP和TCP"><a href="#UDP和TCP" class="headerlink" title="UDP和TCP"></a>UDP和TCP</h3><ul>
+<li>解释<ul>
+<li>UDP：用户数据报协议（User Datagram Protocol）</li>
+<li>TCP：传输控制协议（Transmission Control Protocol）</li>
+</ul>
+</li>
+</ul>
+<h4 id="对比："><a href="#对比：" class="headerlink" title="对比："></a>对比：</h4><blockquote>
+<p>UDP                                                                                                        TCP</p>
+<p>支持单播、多播以及广播                                                                      仅支持单播</p>
+<p>是面向应用报文的（对交付下来的报文既不合并也不差分）            是==面向字节流==的</p>
+<p>无连接不可靠                                                                                         面向连接可靠</p>
+<p>用于直播、IP电话等                                                                              用于传输文件等</p>
+</blockquote>
+<h4 id="TCP的流量控制"><a href="#TCP的流量控制" class="headerlink" title="TCP的流量控制"></a>TCP的流量控制</h4><ul>
+<li>所谓流量控制（flow control）就是让发送方的发送速率不要太快，要让接收方来得及接收。</li>
+<li>利用滑动窗口机制可以很方便地在TCP连接上实现对发送方的流量控制。</li>
+</ul>
+<h4 id="TCP的拥塞控制"><a href="#TCP的拥塞控制" class="headerlink" title="TCP的拥塞控制"></a>TCP的拥塞控制</h4><ul>
+<li>在某段时间，若对网络中某一资源的需求超过了该资源所能提供的可用部分，网络性能就要变坏。这种情况就叫做拥塞(congestion)。</li>
+</ul>
+<blockquote>
+<p>四种拥塞控制算法：</p>
+<ul>
+<li>慢开始：按指数增加（增长速度快，只是起始比较低），拥塞窗口增大到慢开始门限时，执行拥塞避免算法。</li>
+<li>拥塞避免：每次只加一，出现拥塞就将拥塞窗口变成一，再次执行慢开始算法。</li>
+<li>快重传：所谓快重传，就是使发送方尽快进行重传，而不是等超时重传计时器超时再重传。<ul>
+<li>发送方一旦收到3个连续的重复确认，就将相应的报文段立即重传，而不是等该报文段的超时重传计时器超时再重传。</li>
+</ul>
+</li>
+<li>快恢复：发送方一旦收到3个重复确认，就知道现在只是丢失了个别的报文段。于是不启动慢开始算法，而执行快恢复算法。<ul>
+<li>发送方将慢开始门限ssthresh值和拥塞窗口cwnd值调整为当前窗口的一半；开始执行拥塞避免算法。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="TCP超时重传时间的选择"><a href="#TCP超时重传时间的选择" class="headerlink" title="TCP超时重传时间的选择"></a>TCP超时重传时间的选择</h4><p>往返时间RTT</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517184548201.png" alt="image-20210517184548201"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517184813181.png" alt="image-20210517184813181"></p>
+<p><strong>注意：TCP的通信是全双工通信。通信中的每一方都在发送和接收报文段。</strong></p>
+<h4 id="TCP的运输连接管理"><a href="#TCP的运输连接管理" class="headerlink" title="TCP的运输连接管理"></a>TCP的运输连接管理</h4><ul>
+<li>”三报文握手“建立连接</li>
+<li>”四报文挥手“释放连接</li>
+</ul>
+<p><strong>为啥TCP的控制算法这么多，而UDP却没有提及呢？因为TCP要保证数据传输的可靠啊；UDP不保证可靠，数据掉了与它无瓜。</strong></p>
+<h2 id="6-应用层"><a href="#6-应用层" class="headerlink" title="6.应用层"></a>6.应用层</h2><h3 id="概述-3"><a href="#概述-3" class="headerlink" title="概述"></a>概述</h3><ul>
+<li>应用层是计算机网络体系结构的最顶层，是设计和建立计算机网络的最终目的，也是计算机网络中发展最快的部分。</li>
+</ul>
+<h3 id="客户-服务器（C-S方式）和对等方式（P2P方式）"><a href="#客户-服务器（C-S方式）和对等方式（P2P方式）" class="headerlink" title="客户/服务器（C/S方式）和对等方式（P2P方式）"></a>客户/服务器（C/S方式）和对等方式（P2P方式）</h3><ul>
+<li>C/S方式：客户机是请求方，服务器是服务提供方。常出现服务器跟不上众多客户机请求的情况，所以需要一个强大的服务器集群。</li>
+<li>P2P：没有固定的服务请求者和服务提供者，分布在网络边缘各端系统中的应用进程是对等的，被称为对等方。对等方相互之间直接通信，每个对等方既是服务的请求者，又是服务的提供者。（直播，迅雷下载等就用的这个）</li>
+</ul>
+<h3 id="动态主机配置协议DHCP"><a href="#动态主机配置协议DHCP" class="headerlink" title="动态主机配置协议DHCP"></a>动态主机配置协议DHCP</h3><ul>
+<li>动态主机配置协议DHCP（Dynamic Host Configuration Protocol）提供了一种机制，称为即插即用连网。这种机制允许一台计算机加入新网络时可自动获取IP地址等网络配置信息而不用手工参与。</li>
+<li>DHCP报文在运输层使用UDP协议封装（UDP能广播）</li>
+</ul>
+<h3 id="域名系统DNS"><a href="#域名系统DNS" class="headerlink" title="域名系统DNS"></a>域名系统DNS</h3><ul>
+<li><p>就是IP地址不好记，所以要搞域名。</p>
+</li>
+<li><p>域名和IP地址的映射关系必须保存在域名服务器中，供所有其他应用查询。显然不能将所有信息都储存在一台域名服务器中。DNS使用<strong>分布在各地的域名服务器</strong>来实现域名到IP地址的转换。</p>
+</li>
+<li><p>DNS报文在运输层也是使用UDP协议封装（UDP能广播）</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517202028065.png" alt="image-20210517202028065"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517202944620.png" alt="image-20210517202944620"></p>
+<h3 id="文本传送协议FTP"><a href="#文本传送协议FTP" class="headerlink" title="文本传送协议FTP"></a>文本传送协议FTP</h3><ul>
+<li>FTP提供交互式的访问，允许客户指明文件的类型与格式（如指明是否使用ASCII码），并允许文件具有存取权限（如访问文件的用户必须经过授权，并输入有效的口令）。</li>
+<li>FTP屏蔽了各计算机系统的细节，因而适合于在异构网络中任意计算机之间传送文件。</li>
+</ul>
+<h3 id="电子邮件"><a href="#电子邮件" class="headerlink" title="电子邮件"></a>电子邮件</h3><ul>
+<li>电子邮件系统采用基于<strong>TCP连接的客户/服务器</strong>方式。</li>
+<li>电子邮件系统的三个主要组成构件：用户代理，邮件服务器，以及电子邮件所需的协议。</li>
+<li>通过浏览器登录（提供用户名和口令）邮件服务器万维网网站就可以撰写、收发、阅读和管理电子邮件。这种工作模式与IMAP很类似，不同的是用户计算机无需安装专门的用户代理程序，只需要使用通用的万维网浏览器。</li>
+</ul>
+<p>有很多邮件发送协议，以下是QQ邮箱中-设置-账号  可采用的协议</p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210517204453402.png" alt="image-20210517204453402"></p>
+<h3 id="万维网www"><a href="#万维网www" class="headerlink" title="万维网www"></a>万维网www</h3><ul>
+<li><p>万维网www (World Wide Web）并非某种特殊的计算机网络。它是一个大规模的、联机式的信息储藏所，是运行在因特网上的一个分布式应用。</p>
+</li>
+<li><p>为了方便地访问在世界范围的文档，万维网使用统一资源定位符URL来指明因特网上任何种类“资源”的位置。</p>
+</li>
+<li><p>URL的一般形式由以下四个部分组成：==&lt;协议&gt;://&lt;主机&gt;:&lt;端口&gt;/&lt;路径&gt;==</p>
+</li>
+</ul>
+<h4 id="超文本传输协议HTTP"><a href="#超文本传输协议HTTP" class="headerlink" title="超文本传输协议HTTP"></a>超文本传输协议HTTP</h4><ul>
+<li>HTTP是无状态的协议</li>
+<li>cookie是一种对无状态的HTTP进行状态化的技术</li>
+</ul>
+<p>最后编辑于：2021.05.16</p>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.xkstart.xyz/2021/ckqf0zpsw00192gn0cbi62jt5/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" rel="tag">计算机网络</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2021/about/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            About Me
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2021/ckqf0zps000032gn02ktw0vf9/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">HelloMarkdown</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "LkHLsTliaKfktTz4i1zbeINr-gzGzoHsz",
+    app_key: "hviNekd2fCoC9KWDPGzl4z29",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2021
+        <i class="ri-heart-fill heart_icon"></i> xkstart
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        
+        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
+        <span class="division">|</span>
+        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+        <li>
+          <a href="http://www.beian.miit.gov.cn/" target="_black" rel="nofollow">京ICP备88888888</a>
+        </li>
+        
+    </ul>
+    <ul>
+      
+      <li>
+          <img src="/images/beian.png"></img>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_black" rel="nofollow">京公网安备11000002000001号</a>
+      </li>
+        
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="float_btns">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+      </div>
+    </main>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer-side.svg" alt="夏"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2021/about">关于我</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/player/">播放器</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+ 
+<script src="/js/dz.js"></script>
+ 
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
+        src="//music.163.com/outchain/player?type=2&id=1811881283&auto=0&height=32"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
+    
+  </div>
+</body>
+
+</html>
