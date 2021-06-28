@@ -28,8 +28,22 @@
       </tags>
   </entry>
   <entry>
+    <title>文明6</title>
+    <url>/2021/ckqgf31hl000fdon0ciiu668m/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="千古一帝"><a href="#千古一帝" class="headerlink" title="千古一帝"></a>千古一帝</h2><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628155033.png" alt="20210628155033"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628160427.png" alt="20210628160427"></p>
+<p><span class="github-emoji"><span>😜</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>文明6</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>network</title>
-    <url>/2021/ckqf0zpsw00192gn0cbi62jt5/</url>
+    <url>/2021/ckqgf31iy001idon05tcmas7p/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>之前也学过计算机网络，那时候疫情在家上的网课，没怎么认真学。一直也没有太把这个当回事，上个月面试被问到了这个，当时连网络有哪些层都答不上来，就挺尴尬的。前几天，在知乎刷到，有人推荐<a href="https://www.bilibili.com/video/BV1c4411d7jb?p=1">湖南科技大学的计算机网络课程</a>很不错，就趁着周末空闲学了一下，然后写下了这份笔记。笔记里的所有图片都是我在视频里截图的，笔记不对网络涉及的算法深究，由于我不考研，也就没有必要死记住那些网络中涉及的参数、视频中出现的考研题目和各协议的报文格式（我可没有背书的天赋）。</p>
 <h2 id="1-概况"><a href="#1-概况" class="headerlink" title="1. 概况"></a>1. 概况</h2><h3 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160531889.png" alt="image-20210515160531889"></p>
 <p>​    报文传输已经很少使用了，因为需要路由器一次缓存所有数据，现在的数据都挺大的，这种缓存的行为很不友好。</p>
@@ -429,7 +443,7 @@
   </entry>
   <entry>
     <title>HelloMarkdown</title>
-    <url>/2021/ckqf0zps000032gn02ktw0vf9/</url>
+    <url>/2021/ckqgf31gr0001don0adja3nae/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Basic-Markdown-Syntax"><a href="#Basic-Markdown-Syntax" class="headerlink" title="Basic Markdown Syntax"></a>Basic Markdown Syntax</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><blockquote>
 <p>区块引用</p>
 <blockquote>
@@ -437,7 +451,7 @@
 </blockquote>
 </blockquote>
 <p><code>标记</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	std::cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">	std::cout &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 
 <p><em>斜体</em> <em>斜体</em></p>
 <p><strong>粗体</strong> <strong>粗体</strong></p>
@@ -486,7 +500,7 @@
   </entry>
   <entry>
     <title>Markdown测试</title>
-    <url>/2021/ckqf0zps800092gn032629y17/</url>
+    <url>/2021/ckqgf31ha0009don072zj4ek3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
 <h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 * 和 ** 表示斜体和粗体。</p>
 <p>示例：</p>
@@ -495,7 +509,7 @@
 
 <h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
 <p>示例：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></tbody></table></figure>
 
 <p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。</p>
 <h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
@@ -529,7 +543,7 @@
 </code></pre>
 <h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
 <p>示例：</p>
-<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&v=4" alt="我的头像"></p>
+<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&amp;u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&amp;v=4" alt="我的头像"></p>
 <h1 id="Cmd-Markdown-高阶语法手册"><a href="#Cmd-Markdown-高阶语法手册" class="headerlink" title="Cmd Markdown 高阶语法手册"></a>Cmd Markdown 高阶语法手册</h1><h3 id="1-内容目录"><a href="#1-内容目录" class="headerlink" title="1. 内容目录"></a>1. 内容目录</h3><p>在段落中填写 <code>[TOC]</code> 以显示全文内容的目录结构。</p>
 <p>[TOC]</p>
 <h3 id="2-标签分类"><a href="#2-标签分类" class="headerlink" title="2. 标签分类"></a>2. 标签分类</h3><p>在编辑区任意行的列首位置输入以下代码给文稿标签：</p>
@@ -550,26 +564,26 @@
 <p>访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。</p>
 <h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>支持四十一种编程语言的语法高亮的显示，行号显示。</p>
 <p>非代码示例：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></tbody></table></figure>
 
 <p>Python 示例：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Greater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">''</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>JavaScript 示例：</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) {</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></table></figure>
+<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></tbody></table></figure>
 
-<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
+<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></tbody></table></figure>
 
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></table></figure>
+<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></tbody></table></figure>
 
 <h4 id="更多语法参考：序列图语法参考"><a href="#更多语法参考：序列图语法参考" class="headerlink" title="更多语法参考：序列图语法参考"></a>更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/">序列图语法参考</a></h4><h3 id="9-甘特图"><a href="#9-甘特图" class="headerlink" title="9. 甘特图"></a>9. 甘特图</h3><p>甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></tbody></table></figure>
 
-<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C&#123;Decision&#125;</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></table></figure>
+<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C{Decision}</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></tbody></table></figure>
 
-<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></tbody></table></figure>
 
 <h4 id="更多语法参考：Mermaid-序列图语法参考"><a href="#更多语法参考：Mermaid-序列图语法参考" class="headerlink" title="更多语法参考：Mermaid 序列图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams">Mermaid 序列图语法参考</a></h4><h3 id="12-表格支持"><a href="#12-表格支持" class="headerlink" title="12. 表格支持"></a>12. 表格支持</h3><table>
 <thead>
@@ -600,7 +614,7 @@
 <h3 id="14-Html-标签"><a href="#14-Html-标签" class="headerlink" title="14. Html 标签"></a>14. Html 标签</h3><p>本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
 <pre><code>&lt;table&gt;
     &lt;tr&gt;
-        &lt;th rowspan=&quot;2&quot;&gt;值班人员&lt;/th&gt;
+        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
         &lt;th&gt;星期一&lt;/th&gt;
         &lt;th&gt;星期二&lt;/th&gt;
         &lt;th&gt;星期三&lt;/th&gt;
@@ -613,7 +627,7 @@
 &lt;/table&gt;
 </code></pre>
 <table>
-    <tr>
+    <tbody><tr>
         <th rowspan="2">值班人员</th>
         <th>星期一</th>
         <th>星期二</th>
@@ -624,14 +638,14 @@
         <td>张明</td>
         <td>王平</td>
     </tr>
-</table>
+</tbody></table>
 
 <h3 id="15-内嵌图标"><a href="#15-内嵌图标" class="headerlink" title="15. 内嵌图标"></a>15. 内嵌图标</h3><p>本站的图标系统对外开放，在文档中输入</p>
-<pre><code>&lt;i class=&quot;icon-weibo&quot;&gt;&lt;/i&gt;
+<pre><code>&lt;i class="icon-weibo"&gt;&lt;/i&gt;
 </code></pre>
 <p>即显示微博的图标： <i class="icon-weibo icon-2x"></i></p>
 <p>替换 上述 <code>i 标签</code> 内的 <code>icon-weibo</code> 以显示不同的图标，例如：</p>
-<pre><code>&lt;i class=&quot;icon-renren&quot;&gt;&lt;/i&gt;
+<pre><code>&lt;i class="icon-renren"&gt;&lt;/i&gt;
 </code></pre>
 <p>即显示人人的图标： <i class="icon-renren icon-2x"></i></p>
 <p>更多的图标和玩法可以参看 <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/">font-awesome</a> 官方网站。</p>
@@ -672,26 +686,26 @@
 <p>[^footnote2]: 这是另一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
 ]]></content>
       <categories>
-        <category>测试</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>md语法</tag>
       </tags>
   </entry>
   <entry>
     <title>Hello Hexo</title>
-    <url>/2021/ckqf0zprw00012gn0g1yz764t/</url>
+    <url>/2021/ckqgf31h70007don05x49c4jd/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
@@ -705,7 +719,7 @@
   <entry>
     <title>手机摄影学习笔记</title>
     <url>/2021/shoujisheying/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机吧<span class="github-emoji"><span>😮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
 ]]></content>
       <categories>
         <category>摄影</category>
@@ -714,6 +728,22 @@
         <tag>学习</tag>
         <tag>随笔</tag>
         <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太瘦了</title>
+    <url>/2021/ckqgf31ht000mdon0dcru87u7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="因"><a href="#因" class="headerlink" title="因"></a>因</h2><p>在五月份的时候，我打算练个腹肌出来，但是我只喜欢跑步，而且在宿舍里也不好练一些练腹肌的动作</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>然后就开始操作了，从五月五号开始，到五月份结束，中间断断续续的跑了12天，每天四公里。饮食：早上起来了就吃早餐；中午随意吃，不过不加饭了，食堂阿姨盛多少饭就吃多少；晚上吃3-4片全麦面包或者2-3个馒头，如果当天晚上不跑步就想吃啥吃啥，如麻辣烫<span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>；每天摄入两杯咖啡（24g咖啡豆的量）。除此之外就没有其他能量摄入了，也没有其他额外运动了，没有课我就待在寝室。</p>
+<h2 id="果"><a href="#果" class="headerlink" title="果"></a>果</h2><p>算是成功了吧，确实是有腹肌了，但是，我觉得就是瘦出来的，我那一顿操作下来，我从120斤变成了，105斤。emm这个体重对我来说不是很友好。所以，想减肥的同志们啊，坚持就是胜利。</p>
+<img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/8F6D35649AE3E879A185642CD1759883.jpg" alt="img" style="zoom: 33%;">
+
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>体重</tag>
       </tags>
   </entry>
   <entry>
