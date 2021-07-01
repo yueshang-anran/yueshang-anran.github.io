@@ -37,11 +37,11 @@
   </entry>
   
   <entry>
-    <title>About Me</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fcf000ft8n04tz5b2q0/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fcf000ft8n04tz5b2q0/</id>
-    <published>2021-08-20T13:37:04.000Z</published>
-    <updated>2021-06-30T23:19:21.602Z</updated>
+    <title>挑战程序设计竞赛</title>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc0a3000l60n05wdpadqd/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc0a3000l60n05wdpadqd/</id>
+    <published>2021-06-30T22:37:04.000Z</published>
+    <updated>2021-07-01T07:57:02.692Z</updated>
     
     
       
@@ -54,15 +54,19 @@
     
     
     
+    <category term="学习" scheme="https://www.xkstart.xyz/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="about me" scheme="https://www.xkstart.xyz/tags/about-me/"/>
+    <category term="读书" scheme="https://www.xkstart.xyz/categories/%E5%AD%A6%E4%B9%A0/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="看书" scheme="https://www.xkstart.xyz/tags/%E7%9C%8B%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>Todo</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fcn000pt8n04r9r6fx7/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fcn000pt8n04r9r6fx7/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc0a6000r60n066qqfz0o/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc0a6000r60n066qqfz0o/</id>
     <published>2021-06-30T06:12:42.000Z</published>
     <updated>2021-06-30T14:48:36.006Z</updated>
     
@@ -88,8 +92,8 @@
   
   <entry>
     <title>文明6</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fci000jt8n0e54c853r/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fci000jt8n0e54c853r/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc09z000f60n0584e1rgo/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc09z000f60n0584e1rgo/</id>
     <published>2021-06-28T08:14:38.000Z</published>
     <updated>2021-06-28T08:52:45.950Z</updated>
     
@@ -113,8 +117,8 @@
   
   <entry>
     <title>network</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fd4001tt8n06xf8huo4/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fd4001tt8n06xf8huo4/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc0b2001x60n0gcrbd0f4/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc0b2001x60n0gcrbd0f4/</id>
     <published>2021-06-26T06:12:22.000Z</published>
     <updated>2021-06-30T14:01:06.240Z</updated>
     
@@ -140,8 +144,8 @@
   
   <entry>
     <title>HelloMarkdown</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fbv0004t8n02q048vii/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fbv0004t8n02q048vii/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc09t000960n02f8qdrgr/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc09t000960n02f8qdrgr/</id>
     <published>2021-06-24T14:22:00.000Z</published>
     <updated>2021-06-30T14:31:37.878Z</updated>
     
@@ -165,8 +169,8 @@
   
   <entry>
     <title>Markdown测试</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fc50008t8n06hmlgi4f/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fc50008t8n06hmlgi4f/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc09r000660n02i366ug1/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc09r000660n02i366ug1/</id>
     <published>2021-06-24T09:07:11.000Z</published>
     <updated>2021-06-30T14:26:20.809Z</updated>
     
@@ -187,8 +191,8 @@
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fc00005t8n0gi2tgg67/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fc00005t8n0gi2tgg67/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc09n000360n0ccuog835/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc09n000360n0ccuog835/</id>
     <published>2021-06-23T14:22:00.000Z</published>
     <updated>2021-06-27T09:48:07.150Z</updated>
     
@@ -241,8 +245,8 @@
   
   <entry>
     <title>太瘦了</title>
-    <link href="https://www.xkstart.xyz/2021/ckqkm6fco000rt8n0d2891h8s/"/>
-    <id>https://www.xkstart.xyz/2021/ckqkm6fco000rt8n0d2891h8s/</id>
+    <link href="https://www.xkstart.xyz/2021/ckqkmc0a0000h60n0ezycevzq/"/>
+    <id>https://www.xkstart.xyz/2021/ckqkmc0a0000h60n0ezycevzq/</id>
     <published>2021-06-01T08:14:10.000Z</published>
     <updated>2021-06-28T08:49:45.999Z</updated>
     
