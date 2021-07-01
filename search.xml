@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>欢迎</title>
+    <url>/2020/welcome/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="欢迎来到我的网络空间。"><a href="#欢迎来到我的网络空间。" class="headerlink" title="欢迎来到我的网络空间。"></a>欢迎来到我的网络空间。</h2><p>在这里我将记录我学到的、我看到的和我思考的。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About Me</title>
     <url>/2021/about/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -16,339 +28,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello Hexo</title>
-    <url>/2021/ckqkmc09n000360n0ccuog835/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown测试</title>
-    <url>/2021/ckqkmc09r000660n02i366ug1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
-<h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 * 和 ** 表示斜体和粗体。</p>
-<p>示例：</p>
-<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
-<span id="more"></span>
-
-<h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
-<p>示例：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></tbody></table></figure>
-
-<p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。</p>
-<h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
-<p>示例：</p>
-<p>这是去往 <a href="https://xkstart.xyz/">本人博客</a> 的链接。</p>
-<h3 id="4-无序列表"><a href="#4-无序列表" class="headerlink" title="4. 无序列表"></a>4. 无序列表</h3><p>使用 *，+，- 表示无序列表。</p>
-<p>示例：</p>
-<ul>
-<li>无序列表项 一</li>
-<li>无序列表项 二</li>
-<li>无序列表项 三</li>
-</ul>
-<h3 id="5-有序列表"><a href="#5-有序列表" class="headerlink" title="5. 有序列表"></a>5. 有序列表</h3><p>使用数字和点表示有序列表。</p>
-<p>示例：</p>
-<ol>
-<li>有序列表项 一</li>
-<li>有序列表项 二</li>
-<li>有序列表项 三</li>
-</ol>
-<h3 id="6-文字引用"><a href="#6-文字引用" class="headerlink" title="6. 文字引用"></a>6. 文字引用</h3><p>使用 &gt; 表示文字引用。</p>
-<p>示例：</p>
-<blockquote>
-<p>野火烧不尽，春风吹又生。</p>
-</blockquote>
-<h3 id="7-行内代码块"><a href="#7-行内代码块" class="headerlink" title="7. 行内代码块"></a>7. 行内代码块</h3><p>使用 `代码` 表示行内代码块。</p>
-<p>示例：</p>
-<p>让我们聊聊 <code>html</code>。</p>
-<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8.  代码块"></a>8.  代码块</h3><p>使用 四个缩进空格 表示代码块。</p>
-<p>示例：</p>
-<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
-</code></pre>
-<h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
-<p>示例：</p>
-<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&amp;u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&amp;v=4" alt="我的头像"></p>
-<h1 id="Cmd-Markdown-高阶语法手册"><a href="#Cmd-Markdown-高阶语法手册" class="headerlink" title="Cmd Markdown 高阶语法手册"></a>Cmd Markdown 高阶语法手册</h1><h3 id="1-内容目录"><a href="#1-内容目录" class="headerlink" title="1. 内容目录"></a>1. 内容目录</h3><p>在段落中填写 <code>[TOC]</code> 以显示全文内容的目录结构。</p>
-<p>[TOC]</p>
-<h3 id="2-标签分类"><a href="#2-标签分类" class="headerlink" title="2. 标签分类"></a>2. 标签分类</h3><p>在编辑区任意行的列首位置输入以下代码给文稿标签：</p>
-<p>标签： 数学 英语 Markdown</p>
-<p>或者</p>
-<p>Tags： 数学 英语 Markdown</p>
-<h3 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3. 删除线"></a>3. 删除线</h3><p>使用 ~~ 表示删除线。</p>
-<p><del>这是一段错误的文本。</del></p>
-<h3 id="4-注脚"><a href="#4-注脚" class="headerlink" title="4. 注脚"></a>4. 注脚</h3><p>使用 [^keyword] 表示注脚。</p>
-<p>这是一个注脚[^footnote]的样例。</p>
-<p>这是第二个注脚[^footnote2]的样例。</p>
-<h3 id="5-LaTeX-公式"><a href="#5-LaTeX-公式" class="headerlink" title="5. LaTeX 公式"></a>5. LaTeX 公式</h3><p>$ 表示行内公式： </p>
-<p>质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。</p>
-<p>$$ 表示整行公式：</p>
-<p>$$\sum_{i=1}^n a_i=0$$</p>
-<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
-<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
-<p>访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。</p>
-<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>支持四十一种编程语言的语法高亮的显示，行号显示。</p>
-<p>非代码示例：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></tbody></table></figure>
-
-<p>Python 示例：</p>
-<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">''</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>JavaScript 示例：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) {</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></tbody></table></figure>
-
-<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：序列图语法参考"><a href="#更多语法参考：序列图语法参考" class="headerlink" title="更多语法参考：序列图语法参考"></a>更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/">序列图语法参考</a></h4><h3 id="9-甘特图"><a href="#9-甘特图" class="headerlink" title="9. 甘特图"></a>9. 甘特图</h3><p>甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C{Decision}</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：Mermaid-序列图语法参考"><a href="#更多语法参考：Mermaid-序列图语法参考" class="headerlink" title="更多语法参考：Mermaid 序列图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams">Mermaid 序列图语法参考</a></h4><h3 id="12-表格支持"><a href="#12-表格支持" class="headerlink" title="12. 表格支持"></a>12. 表格支持</h3><table>
-<thead>
-<tr>
-<th>项目</th>
-<th align="right">价格</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>计算机</td>
-<td align="right">$1600</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td>手机</td>
-<td align="right">$12</td>
-<td align="center">12</td>
-</tr>
-<tr>
-<td>管线</td>
-<td align="right">$1</td>
-<td align="center">234</td>
-</tr>
-</tbody></table>
-<h3 id="13-定义型列表"><a href="#13-定义型列表" class="headerlink" title="13. 定义型列表"></a>13. 定义型列表</h3><dl><dt>名词 1</dt><dd>定义 1（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><dl><dt>代码块 2</dt><dd>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><pre><code>    代码块（左侧有八个不可见的空格）
-</code></pre>
-<h3 id="14-Html-标签"><a href="#14-Html-标签" class="headerlink" title="14. Html 标签"></a>14. Html 标签</h3><p>本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
-<pre><code>&lt;table&gt;
-    &lt;tr&gt;
-        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
-        &lt;th&gt;星期一&lt;/th&gt;
-        &lt;th&gt;星期二&lt;/th&gt;
-        &lt;th&gt;星期三&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;李强&lt;/td&gt;
-        &lt;td&gt;张明&lt;/td&gt;
-        &lt;td&gt;王平&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code></pre>
-<table>
-    <tbody><tr>
-        <th rowspan="2">值班人员</th>
-        <th>星期一</th>
-        <th>星期二</th>
-        <th>星期三</th>
-    </tr>
-    <tr>
-        <td>李强</td>
-        <td>张明</td>
-        <td>王平</td>
-    </tr>
-</tbody></table>
-
-<h3 id="15-内嵌图标"><a href="#15-内嵌图标" class="headerlink" title="15. 内嵌图标"></a>15. 内嵌图标</h3><p>本站的图标系统对外开放，在文档中输入</p>
-<pre><code>&lt;i class="icon-weibo"&gt;&lt;/i&gt;
-</code></pre>
-<p>即显示微博的图标： <i class="icon-weibo icon-2x"></i></p>
-<p>替换 上述 <code>i 标签</code> 内的 <code>icon-weibo</code> 以显示不同的图标，例如：</p>
-<pre><code>&lt;i class="icon-renren"&gt;&lt;/i&gt;
-</code></pre>
-<p>即显示人人的图标： <i class="icon-renren icon-2x"></i></p>
-<p>更多的图标和玩法可以参看 <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/">font-awesome</a> 官方网站。</p>
-<h3 id="16-待办事宜-Todo-列表"><a href="#16-待办事宜-Todo-列表" class="headerlink" title="16. 待办事宜 Todo 列表"></a>16. 待办事宜 Todo 列表</h3><p>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：</p>
-<pre><code>- [ ] **Cmd Markdown 开发**
-    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-    - [ ] 支持以 PDF 格式导出文稿
-    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
-    - [x] 改进 LaTex 功能
-        - [x] 修复 LaTex 公式渲染问题
-        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
-- [ ] **七月旅行准备**
-    - [ ] 准备邮轮上需要携带的物品
-    - [ ] 浏览日本免税店的物品
-    - [x] 购买蓝宝石公主号七月一日的船票
-</code></pre>
-<p>对应显示如下待办事宜 Todo 列表：</p>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>Cmd Markdown 开发</strong><ul>
-<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
-<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
-<li><input checked="" disabled="" type="checkbox"> 新增Todo列表功能 <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments">语法参考</a></li>
-<li><input checked="" disabled="" type="checkbox"> 改进 LaTex 功能<ul>
-<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
-<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能 <a href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers">语法参考</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> <strong>七月旅行准备</strong><ul>
-<li><input disabled="" type="checkbox"> 准备邮轮上需要携带的物品</li>
-<li><input disabled="" type="checkbox"> 浏览日本免税店的物品</li>
-<li><input checked="" disabled="" type="checkbox"> 购买蓝宝石公主号七月一日的船票</li>
-</ul>
-</li>
-</ul>
-<p>[^footnote]: 这是一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
-<p>[^footnote2]: 这是另一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HelloMarkdown</title>
-    <url>/2021/ckqkmc09t000960n02f8qdrgr/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Basic-Markdown-Syntax"><a href="#Basic-Markdown-Syntax" class="headerlink" title="Basic Markdown Syntax"></a>Basic Markdown Syntax</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><blockquote>
-<p>区块引用</p>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<p><code>标记</code></p>
-<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">	std::cout &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-
-<p><em>斜体</em> <em>斜体</em></p>
-<p><strong>粗体</strong> <strong>粗体</strong></p>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ol>
-<hr>
-<hr>
-<hr>
-<ul>
-<li><input disabled="" type="checkbox"> a</li>
-<li><input checked="" disabled="" type="checkbox"> b</li>
-<li><input disabled="" type="checkbox"> c</li>
-<li><input disabled="" type="checkbox"> d</li>
-</ul>
-<p><a href="https://duckduckgo.com/">DuckDuckGo</a></p>
-<p><img src="https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg" alt="DuckDuckGo"></p>
-<p>typora行内公式：</p>
-<p>​    偏好中勾选内联公式，重启后，输入$，按Esc，会自动补上个 ＄，然后在两个＄之间输入公式</p>
-<p>如何退出代码块：</p>
-<p>​    按两次回车</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎</title>
-    <url>/2020/welcome/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="欢迎来到我的网络空间。"><a href="#欢迎来到我的网络空间。" class="headerlink" title="欢迎来到我的网络空间。"></a>欢迎来到我的网络空间。</h2><p>在这里我将记录我学到的、我看到的和我思考的。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机摄影学习笔记</title>
-    <url>/2021/shoujisheying/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机吧<span class="github-emoji"><span>😮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-]]></content>
-      <categories>
-        <category>摄影</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-        <tag>学习</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文明6</title>
-    <url>/2021/ckqkmc09z000f60n0584e1rgo/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="千古一帝"><a href="#千古一帝" class="headerlink" title="千古一帝"></a>千古一帝</h2><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628155033.png" alt="20210628155033"></p>
-<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628160427.png" alt="20210628160427"></p>
-<p><span class="github-emoji"><span>😜</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>文明6</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>太瘦了</title>
-    <url>/2021/ckqkmc0a0000h60n0ezycevzq/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="因"><a href="#因" class="headerlink" title="因"></a>因</h2><p>在五月份的时候，我打算练个腹肌出来，但是我只喜欢跑步，而且在宿舍里也不好练一些练腹肌的动作</p>
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>然后就开始操作了，从五月五号开始，到五月份结束，中间断断续续的跑了12天，每天四公里。饮食：早上起来了就吃早餐；中午随意吃，不过不加饭了，食堂阿姨盛多少饭就吃多少；晚上吃3-4片全麦面包或者2-3个馒头，如果当天晚上不跑步就想吃啥吃啥，如麻辣烫<span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>；每天摄入两杯咖啡（24g咖啡豆的量）。除此之外就没有其他能量摄入了，也没有其他额外运动了，没有课我就待在寝室。</p>
-<h2 id="果"><a href="#果" class="headerlink" title="果"></a>果</h2><p>算是成功了吧，确实是有腹肌了，但是，我觉得就是瘦出来的，我那一顿操作下来，我从120斤变成了，105斤。emm这个体重对我来说不是很友好。所以，想减肥的同志们啊，坚持就是胜利。</p>
-<img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/8F6D35649AE3E879A185642CD1759883.jpg" alt="img" style="zoom: 33%;">
-
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>体重</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>挑战程序设计竞赛</title>
-    <url>/2021/ckqkmc0a3000l60n05wdpadqd/</url>
+    <url>/2021/ckqkz2bzy000gewn0ekj8ewb1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="读书笔记：挑战程序设计竞赛（第二版）"><a href="#读书笔记：挑战程序设计竞赛（第二版）" class="headerlink" title="读书笔记：挑战程序设计竞赛（第二版）"></a>读书笔记：挑战程序设计竞赛（第二版）</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>学校里有个老师天天上课阴阳怪气，还老讲他前女友的故事，还不让玩手机。无奈找了一本书看看，就是这本了。</p>
 <h2 id="1-准备篇"><a href="#1-准备篇" class="headerlink" title="1.准备篇"></a>1.准备篇</h2><h3 id="POJ1852"><a href="#POJ1852" class="headerlink" title="POJ1852"></a>POJ1852</h3><p>我最早在大一的时候看到了这道题目，我还去问了当时的C语言老师怎么写，当然了，没有回复我答案。回到题目上来，这道题目想通了就很简单咯。</p>
 <p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210519193153498-1621423916448.png" alt="image-20210519193153498"></p>
@@ -475,42 +156,35 @@
       </tags>
   </entry>
   <entry>
-    <title>静享云南慢时光</title>
-    <url>/2020/yunnan/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从云南回来正好一个月的时间，决定在还没有遗忘旅行的细节前将这次云南之旅记录下来，毕竟这是难得的一次全程由自己做攻略的旅行经历。尽量以时间线的顺序进行记录，防止遗漏，过程可能有流水账之嫌，事无巨细，哈哈哪怕没人看我想我们两个看的时候都会笑出声，尤其是以我的zz小伙伴那种老年痴呆患者的记性。整个旅途我们可以说是很舒服很愉快的，但依旧有值得注意的地方。</p>
-<span id="more"></span>
-
-<p>编不下去了，身为穷逼的我，哪里有钱去旅游。</p>
-]]></content>
-      <categories>
-        <category>旅行</category>
-        <category>国内</category>
-      </categories>
-      <tags>
-        <tag>旅行</tag>
-        <tag>国内</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Todo</title>
-    <url>/2021/ckqkmc0a6000r60n066qqfz0o/</url>
+    <url>/2021/ckqkz2c09000tewn04d9s5tx9/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="清单"><a href="#清单" class="headerlink" title="清单"></a>清单</h1><p>人都懒，难以自律，当然了我也是。不过啊，我这人比较信守承诺，正好将任务清单写下来，督促我完成，既然答应了就应该完成，纵使这是和我自己的约定。</p>
 <hr>
 <ul>
-<li><input disabled="" type="checkbox"> <strong>7月1号</strong><ul>
-<li><input disabled="" type="checkbox"> 早起</li>
-<li><input disabled="" type="checkbox"> 跑步</li>
-<li><input disabled="" type="checkbox"> 看书</li>
-<li><input disabled="" type="checkbox"> 写博客</li>
-<li><input disabled="" type="checkbox"> 看博客</li>
-<li><input disabled="" type="checkbox"> 看项目</li>
-<li><input disabled="" type="checkbox"> 听书</li>
+<li><input checked="" disabled="" type="checkbox"> <strong>7月1号</strong><ul>
+<li><input checked="" disabled="" type="checkbox"> 早起</li>
+<li><input disabled="" type="checkbox"> <del>跑步（下大雨）</del></li>
+<li><input checked="" disabled="" type="checkbox"> 看书</li>
+<li><input checked="" disabled="" type="checkbox"> 写博客</li>
+<li><input checked="" disabled="" type="checkbox"> 看博客</li>
+<li><input checked="" disabled="" type="checkbox"> 看项目</li>
+<li><input checked="" disabled="" type="checkbox"> 听书</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li><input disabled="" type="checkbox"> <strong>7月2号</strong><ul>
+<li><input disabled="" type="checkbox"> 早起</li>
+<li><input disabled="" type="checkbox"> 看书</li>
+<li><input disabled="" type="checkbox"> 写博客</li>
+<li><input disabled="" type="checkbox"> 听《穷查理宝典》</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>7月3号</strong><ul>
 <li><input disabled="" type="checkbox"> </li>
 </ul>
 </li>
@@ -525,8 +199,22 @@
       </tags>
   </entry>
   <entry>
+    <title>文明6</title>
+    <url>/2021/ckqkz2c02000kewn01efz04tn/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="千古一帝"><a href="#千古一帝" class="headerlink" title="千古一帝"></a>千古一帝</h2><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628155033.png" alt="20210628155033"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628160427.png" alt="20210628160427"></p>
+<p><span class="github-emoji"><span>😜</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>文明6</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>network</title>
-    <url>/2021/ckqkmc0b2001x60n0gcrbd0f4/</url>
+    <url>/2021/ckqkz2c19001vewn07ipfdofw/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>之前也学过计算机网络，那时候疫情在家上的网课，没怎么认真学。一直也没有太把这个当回事，上个月面试被问到了这个，当时连网络有哪些层都答不上来，就挺尴尬的。前几天，在知乎刷到，有人推荐<a href="https://www.bilibili.com/video/BV1c4411d7jb?p=1">湖南科技大学的计算机网络课程</a>很不错，就趁着周末空闲学了一下，然后写下了这份笔记。笔记里的所有图片都是我在视频里截图的，笔记不对网络涉及的算法深究，由于我不考研，也就没有必要死记住那些网络中涉及的参数、视频中出现的考研题目和各协议的报文格式（我可没有背书的天赋）。</p>
 <h2 id="1-概况"><a href="#1-概况" class="headerlink" title="1. 概况"></a>1. 概况</h2><h3 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160531889.png" alt="image-20210515160531889"></p>
 <p>​    报文传输已经很少使用了，因为需要路由器一次缓存所有数据，现在的数据都挺大的，这种缓存的行为很不友好。</p>
@@ -923,6 +611,328 @@
       </categories>
       <tags>
         <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HelloMarkdown</title>
+    <url>/2021/ckqkz2bz50001ewn0cnkhbz64/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Basic-Markdown-Syntax"><a href="#Basic-Markdown-Syntax" class="headerlink" title="Basic Markdown Syntax"></a>Basic Markdown Syntax</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><blockquote>
+<p>区块引用</p>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<p><code>标记</code></p>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">	std::cout &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p><em>斜体</em> <em>斜体</em></p>
+<p><strong>粗体</strong> <strong>粗体</strong></p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<hr>
+<hr>
+<hr>
+<ul>
+<li><input disabled="" type="checkbox"> a</li>
+<li><input checked="" disabled="" type="checkbox"> b</li>
+<li><input disabled="" type="checkbox"> c</li>
+<li><input disabled="" type="checkbox"> d</li>
+</ul>
+<p><a href="https://duckduckgo.com/">DuckDuckGo</a></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg" alt="DuckDuckGo"></p>
+<p>typora行内公式：</p>
+<p>​    偏好中勾选内联公式，重启后，输入$，按Esc，会自动补上个 ＄，然后在两个＄之间输入公式</p>
+<p>如何退出代码块：</p>
+<p>​    按两次回车</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown测试</title>
+    <url>/2021/ckqkz2bzp0009ewn05quuc68a/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
+<h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 * 和 ** 表示斜体和粗体。</p>
+<p>示例：</p>
+<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
+<span id="more"></span>
+
+<h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
+<p>示例：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></tbody></table></figure>
+
+<p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。</p>
+<h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
+<p>示例：</p>
+<p>这是去往 <a href="https://xkstart.xyz/">本人博客</a> 的链接。</p>
+<h3 id="4-无序列表"><a href="#4-无序列表" class="headerlink" title="4. 无序列表"></a>4. 无序列表</h3><p>使用 *，+，- 表示无序列表。</p>
+<p>示例：</p>
+<ul>
+<li>无序列表项 一</li>
+<li>无序列表项 二</li>
+<li>无序列表项 三</li>
+</ul>
+<h3 id="5-有序列表"><a href="#5-有序列表" class="headerlink" title="5. 有序列表"></a>5. 有序列表</h3><p>使用数字和点表示有序列表。</p>
+<p>示例：</p>
+<ol>
+<li>有序列表项 一</li>
+<li>有序列表项 二</li>
+<li>有序列表项 三</li>
+</ol>
+<h3 id="6-文字引用"><a href="#6-文字引用" class="headerlink" title="6. 文字引用"></a>6. 文字引用</h3><p>使用 &gt; 表示文字引用。</p>
+<p>示例：</p>
+<blockquote>
+<p>野火烧不尽，春风吹又生。</p>
+</blockquote>
+<h3 id="7-行内代码块"><a href="#7-行内代码块" class="headerlink" title="7. 行内代码块"></a>7. 行内代码块</h3><p>使用 `代码` 表示行内代码块。</p>
+<p>示例：</p>
+<p>让我们聊聊 <code>html</code>。</p>
+<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8.  代码块"></a>8.  代码块</h3><p>使用 四个缩进空格 表示代码块。</p>
+<p>示例：</p>
+<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
+</code></pre>
+<h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
+<p>示例：</p>
+<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&amp;u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&amp;v=4" alt="我的头像"></p>
+<h1 id="Cmd-Markdown-高阶语法手册"><a href="#Cmd-Markdown-高阶语法手册" class="headerlink" title="Cmd Markdown 高阶语法手册"></a>Cmd Markdown 高阶语法手册</h1><h3 id="1-内容目录"><a href="#1-内容目录" class="headerlink" title="1. 内容目录"></a>1. 内容目录</h3><p>在段落中填写 <code>[TOC]</code> 以显示全文内容的目录结构。</p>
+<p>[TOC]</p>
+<h3 id="2-标签分类"><a href="#2-标签分类" class="headerlink" title="2. 标签分类"></a>2. 标签分类</h3><p>在编辑区任意行的列首位置输入以下代码给文稿标签：</p>
+<p>标签： 数学 英语 Markdown</p>
+<p>或者</p>
+<p>Tags： 数学 英语 Markdown</p>
+<h3 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3. 删除线"></a>3. 删除线</h3><p>使用 ~~ 表示删除线。</p>
+<p><del>这是一段错误的文本。</del></p>
+<h3 id="4-注脚"><a href="#4-注脚" class="headerlink" title="4. 注脚"></a>4. 注脚</h3><p>使用 [^keyword] 表示注脚。</p>
+<p>这是一个注脚[^footnote]的样例。</p>
+<p>这是第二个注脚[^footnote2]的样例。</p>
+<h3 id="5-LaTeX-公式"><a href="#5-LaTeX-公式" class="headerlink" title="5. LaTeX 公式"></a>5. LaTeX 公式</h3><p>$ 表示行内公式： </p>
+<p>质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。</p>
+<p>$$ 表示整行公式：</p>
+<p>$$\sum_{i=1}^n a_i=0$$</p>
+<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
+<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
+<p>访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。</p>
+<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>支持四十一种编程语言的语法高亮的显示，行号显示。</p>
+<p>非代码示例：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></tbody></table></figure>
+
+<p>Python 示例：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">''</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>JavaScript 示例：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) {</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：序列图语法参考"><a href="#更多语法参考：序列图语法参考" class="headerlink" title="更多语法参考：序列图语法参考"></a>更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/">序列图语法参考</a></h4><h3 id="9-甘特图"><a href="#9-甘特图" class="headerlink" title="9. 甘特图"></a>9. 甘特图</h3><p>甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C{Decision}</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：Mermaid-序列图语法参考"><a href="#更多语法参考：Mermaid-序列图语法参考" class="headerlink" title="更多语法参考：Mermaid 序列图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams">Mermaid 序列图语法参考</a></h4><h3 id="12-表格支持"><a href="#12-表格支持" class="headerlink" title="12. 表格支持"></a>12. 表格支持</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th align="right">价格</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>计算机</td>
+<td align="right">$1600</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td align="right">$12</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td align="right">$1</td>
+<td align="center">234</td>
+</tr>
+</tbody></table>
+<h3 id="13-定义型列表"><a href="#13-定义型列表" class="headerlink" title="13. 定义型列表"></a>13. 定义型列表</h3><dl><dt>名词 1</dt><dd>定义 1（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><dl><dt>代码块 2</dt><dd>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><pre><code>    代码块（左侧有八个不可见的空格）
+</code></pre>
+<h3 id="14-Html-标签"><a href="#14-Html-标签" class="headerlink" title="14. Html 标签"></a>14. Html 标签</h3><p>本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
+<pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<table>
+    <tbody><tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</tbody></table>
+
+<h3 id="15-内嵌图标"><a href="#15-内嵌图标" class="headerlink" title="15. 内嵌图标"></a>15. 内嵌图标</h3><p>本站的图标系统对外开放，在文档中输入</p>
+<pre><code>&lt;i class="icon-weibo"&gt;&lt;/i&gt;
+</code></pre>
+<p>即显示微博的图标： <i class="icon-weibo icon-2x"></i></p>
+<p>替换 上述 <code>i 标签</code> 内的 <code>icon-weibo</code> 以显示不同的图标，例如：</p>
+<pre><code>&lt;i class="icon-renren"&gt;&lt;/i&gt;
+</code></pre>
+<p>即显示人人的图标： <i class="icon-renren icon-2x"></i></p>
+<p>更多的图标和玩法可以参看 <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/">font-awesome</a> 官方网站。</p>
+<h3 id="16-待办事宜-Todo-列表"><a href="#16-待办事宜-Todo-列表" class="headerlink" title="16. 待办事宜 Todo 列表"></a>16. 待办事宜 Todo 列表</h3><p>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：</p>
+<pre><code>- [ ] **Cmd Markdown 开发**
+    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+    - [ ] 支持以 PDF 格式导出文稿
+    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
+    - [x] 改进 LaTex 功能
+        - [x] 修复 LaTex 公式渲染问题
+        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
+- [ ] **七月旅行准备**
+    - [ ] 准备邮轮上需要携带的物品
+    - [ ] 浏览日本免税店的物品
+    - [x] 购买蓝宝石公主号七月一日的船票
+</code></pre>
+<p>对应显示如下待办事宜 Todo 列表：</p>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Cmd Markdown 开发</strong><ul>
+<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
+<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
+<li><input checked="" disabled="" type="checkbox"> 新增Todo列表功能 <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments">语法参考</a></li>
+<li><input checked="" disabled="" type="checkbox"> 改进 LaTex 功能<ul>
+<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
+<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能 <a href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers">语法参考</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <strong>七月旅行准备</strong><ul>
+<li><input disabled="" type="checkbox"> 准备邮轮上需要携带的物品</li>
+<li><input disabled="" type="checkbox"> 浏览日本免税店的物品</li>
+<li><input checked="" disabled="" type="checkbox"> 购买蓝宝石公主号七月一日的船票</li>
+</ul>
+</li>
+</ul>
+<p>[^footnote]: 这是一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
+<p>[^footnote2]: 这是另一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello Hexo</title>
+    <url>/2021/ckqkz2bzc0003ewn04v3baqcm/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机摄影学习笔记</title>
+    <url>/2021/shoujisheying/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机吧<span class="github-emoji"><span>😮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>学习</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太瘦了</title>
+    <url>/2021/ckqkz2c08000rewn042121p1d/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="因"><a href="#因" class="headerlink" title="因"></a>因</h2><p>在五月份的时候，我打算练个腹肌出来，但是我只喜欢跑步，而且在宿舍里也不好练一些练腹肌的动作</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>然后就开始操作了，从五月五号开始，到五月份结束，中间断断续续的跑了12天，每天四公里。饮食：早上起来了就吃早餐；中午随意吃，不过不加饭了，食堂阿姨盛多少饭就吃多少；晚上吃3-4片全麦面包或者2-3个馒头，如果当天晚上不跑步就想吃啥吃啥，如麻辣烫<span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>；每天摄入两杯咖啡（24g咖啡豆的量）。除此之外就没有其他能量摄入了，也没有其他额外运动了，没有课我就待在寝室。</p>
+<h2 id="果"><a href="#果" class="headerlink" title="果"></a>果</h2><p>算是成功了吧，确实是有腹肌了，但是，我觉得就是瘦出来的，我那一顿操作下来，我从120斤变成了，105斤。emm这个体重对我来说不是很友好。所以，想减肥的同志们啊，坚持就是胜利。</p>
+<img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/8F6D35649AE3E879A185642CD1759883.jpg" alt="img" style="zoom: 33%;">
+
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>体重</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>静享云南慢时光</title>
+    <url>/2020/yunnan/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从云南回来正好一个月的时间，决定在还没有遗忘旅行的细节前将这次云南之旅记录下来，毕竟这是难得的一次全程由自己做攻略的旅行经历。尽量以时间线的顺序进行记录，防止遗漏，过程可能有流水账之嫌，事无巨细，哈哈哪怕没人看我想我们两个看的时候都会笑出声，尤其是以我的zz小伙伴那种老年痴呆患者的记性。整个旅途我们可以说是很舒服很愉快的，但依旧有值得注意的地方。</p>
+<span id="more"></span>
+
+<p>编不下去了，身为穷逼的我，哪里有钱去旅游。</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+        <category>国内</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>国内</tag>
       </tags>
   </entry>
 </search>
