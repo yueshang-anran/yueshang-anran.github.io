@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+       
+      <meta name="keywords" content="生活，旅行，思考，代码，博客" />
+       
+      <meta name="description" content="个人博客网站" />
+      
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>C# |  夏</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/favicon.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css"
+      />
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+       
+ 
+
+      <!-- mermaid -->
+      
+    
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="夏" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-C#"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  C#
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/ckvgnm6a00000d4n03kbg4rwe/" class="article-date">
+  <time datetime="2021-11-01T12:39:22.000Z" itemprop="datePublished">2021-11-01</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a> / <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/C/">C#</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">4.3k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">17 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="1-C-和-NET"><a href="#1-C-和-NET" class="headerlink" title="1. C#和.NET"></a>1. C#和.NET</h1><p>​        .NET是一个平台（有点像Java的JRE），C#是一门语言。C#是在.NET上运行的。.NET里有个东西叫<strong>通用语言运行平台</strong>（<strong>Common Language Runtime</strong>，简称<strong>CLR</strong>），CLR是微软为他们的.NET的虚拟机所选用的名称（就相当于Java的JDK）。.NET上不止可以跑C#这一个语言，只要这个语言满足<strong>公用语言规范 Common Language Specification CLS</strong> 即可，如：VB，VC都可以在.NET上跑。</p>
+<h1 id="2-C"><a href="#2-C" class="headerlink" title="2. C#"></a>2. C#</h1><h3 id="2-1-注释"><a href="#2-1-注释" class="headerlink" title="2.1 注释"></a>2.1 注释</h3><ul>
+<li><p>避免在 <strong>“//“</strong> 之后的单行注解中使用反斜杠符号  <strong>“ \ “</strong> 。因为反斜杠符号 <strong>“ \ ”</strong> 在 C# 中是一个续行符，会把下一行的代码拼接上来。这样，下一行代码直接被 <strong>“//”</strong> 变成注释了。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Console.WriteLine(“The result is:{0}” , // \ </span><br><span class="line">                  150 );</span><br><span class="line">/*上面代码直接变成了：</span><br><span class="line">	Console.WriteLine(“The result is:{0}” , // 150 );</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>分割符 <em><em>“ /</em> “</em>* 和 <strong>” <em>/ “</em>* 之间的注释不能有嵌套注释。这是因为C#编译器从遇到第一个分割符 *<em>“ /</em> “</strong> 开始，将忽略下一个 <em><em>“ /</em> “</em>* ，直到遇到 *<em>” <em>/ “</em></em> 才认为注释结束，那么多余的 *<em>” <em>/ “</em></em> 就会报错。</p>
+</li>
+</ul>
+<h3 id="2-2-类"><a href="#2-2-类" class="headerlink" title="2.2 类"></a>2.2 类</h3><ul>
+<li>类和结构同样都包含了自己的成员，但它们之间最主要的区别在于：类是引用类型，而结构是值类型。</li>
+<li>类的修饰符<ul>
+<li>new     仅允许在嵌套类声明时使用，表明类中隐藏了由基类中继承而来的、与基类中同名的成员</li>
+<li>public 表示不限制对该类的访问</li>
+<li>protected 表示只能从所在类和所在类派生的子类进行访问</li>
+<li>internal 只有其所在类才能访问</li>
+<li>private 只有对包 .Net 中的应用程序或库才能访问</li>
+<li>abstract 抽象类，不允许建立类的实例</li>
+<li>sealed 密封类，不允许被继承</li>
+<li>==如果在声明中没有出现成员的访问修饰符，按照默认方式成员为私有的（private）==</li>
+</ul>
+</li>
+<li>构造函数<ul>
+<li>任何构造函数的执行都隐式地调用了系统提供默认的构造函数 base()</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-3-变量"><a href="#2-3-变量" class="headerlink" title="2.3 变量"></a>2.3 变量</h3><ul>
+<li>静态变量、非静态变量、数组元素都推荐在初始化时赋值。</li>
+</ul>
+<h3 id="2-4-类型转换"><a href="#2-4-类型转换" class="headerlink" title="2.4 类型转换"></a>2.4 类型转换</h3><ul>
+<li>隐式转换<ul>
+<li>其它整型值不能自动转换为 char 类型。</li>
+<li>隐式枚举转换允许把十进制整数 0 转换成任何枚举类型，对应其它的整数则不存在这种隐式转换。</li>
+<li>隐式引用转换。能否向上转换？</li>
+</ul>
+</li>
+<li>显式转换<ul>
+<li>编译器将针对转换进行溢出检测，如果没有发生溢出，转换成功，否则抛出一个 OverflowException 异常。</li>
+</ul>
+</li>
+<li>C#采用 Unicode 字符集存储字符。</li>
+</ul>
+<h3 id="2-5-表达式"><a href="#2-5-表达式" class="headerlink" title="2.5 表达式"></a>2.5 表达式</h3><ul>
+<li>加法运算<ul>
+<li>代表合并：加法操作符作用于 delegate 类型的变量。<ul>
+<li>D operator +(D x, D y);<pre><code>其中D是一个 delegate 类型。式子中如果两个操作数是同一 delegate 类型 D 时，则加法操作符执行代表合并运算，如果第一个操作数为 null ，那么结果是第二个操作数的值。反之，如果第二个操 作数为 null 则结果是第一个操作数的值。
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>除法运算<ul>
+<li>在除法运算过程中，默认的返回值的类型与精度最高的操作数类型相同。比如，5/2的结果为 2，而5.0/2 结果为 2.5。如果两个整数类型的变量相除又不能整除的话，返回的结果是不大于相除之值的最大整数。</li>
+</ul>
+</li>
+<li>比较运算<ul>
+<li>如果有一个操作数为 NAN(空)那么除 <strong>“ != ”</strong> 外所有操作符结果为 false，<strong>“ != ”</strong> 的运算结果为 true ，对于任何两个操作数 <strong>“ x!=y ”</strong> 总等价于 <strong>“ !(x == y) ”</strong> 。可是当一个 或两个操作数为 NaN(空)时， &lt; ，&gt; ，&lt;= 和&gt;= 操作符的结果和其相反操作符的逻辑非的结果是不同的。如， x 或 y 为 NaN ，则 x&lt;y 总是 false 的 ，但是 !(x == y) 为 true。</li>
+<li>正零和负零被认为是相等的<ul>
+<li>负无穷被认为小于其它任何值，只是等于另一个负无穷 </li>
+<li>正无穷被认为大于其它任何值，只是等于另一个正无穷</li>
+</ul>
+</li>
+<li>当操作数为 bool 类型时 != 操作符和 ^ 操作符有相等的结果。</li>
+<li>下列条件之一成立则认为两个字符串值相等<ul>
+<li>两个字符串值都为 null</li>
+<li>两个字符串是字符串长度相同 对应的字符序列也相同的非空字符串 </li>
+</ul>
+</li>
+<li><strong>注意：</strong>字符串等价操作符比较的是两个字符串的值，而不是字符串引用。当两个单独的字符串实例含有相同的字符串序列，则认为这两个字符串的值相等。引用类型等价操作符可以用于比较两个字符串引用，不是比较两个字符串的值。</li>
+</ul>
+</li>
+<li>as操作符<ul>
+<li>as 操作符用于通过引用转换或装箱转换将一个值显式地转换成指定的引用类型。不像显式类型转换， as 不会产生任何异常（顶多报个警告）。 如果转换不可以进行 ，那么结果值为 null 。形如“ e as T ”的运算， e 定是一个表达式且 T 是一个引用类型 。返回值的类型总是 T 的类型，并且结果总是一个值。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">	{ </span><br><span class="line">        Console.WriteLine(1 is int); </span><br><span class="line">        Console.WriteLine(1 is float); </span><br><span class="line">        Console.WriteLine(1.0 is float); </span><br><span class="line">        Console.WriteLine(1.0 is double);</span><br><span class="line">	}</span><br><span class="line">}</span><br><span class="line">/*</span><br><span class="line">输出为: </span><br><span class="line">	True</span><br><span class="line">	False </span><br><span class="line">	False (由此可以看出来，1.0 默认是double类型)</span><br><span class="line">	True</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p>如果表达式中同时存在着多个逻辑运算符，逻辑非的优先级最高，逻辑与的优先级高于逻辑或。</p>
+</li>
+<li><p>三元操作符：</p>
+<ul>
+<li>条件操作符是向右关联的，也就是说，从左向右分组计算。例如：表达式 <strong>a? b: c? d: e</strong> 将按 **a? b: (c? d: e)**形式执行。</li>
+<li>？：的第一个操作数必须是一个可以隐式转换成 bool 型的表达式或者执行操作符true 类型的表达式，如果上述这两个条件一个也不满足，则发生运行时错误。</li>
+<li>？：的第二和第三个操作数控制了条件表达式的类型。设 x 和 y 分别是第二个和第三个操作数的类型，那么<ul>
+<li>如果 x和 y为同一类型，则该类型即是条件表达式的类型。</li>
+<li>否则，如果从 x到 y存在一个隐式转换，但不存在 y到 x的转换，那么 y是条件表达式的类型。</li>
+<li>否则，如果从 y到 x存在一个隐式转换，但不存在 x到 y的转换，那么 x是条件表达式的类型。</li>
+<li>否则，没有定义任何表达式类型，发生编译时错误。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>自增和自减</p>
+<ul>
+<li>自增和自减操作符又有前后缀之分。对于前缀操作符，遵循的原则是 <strong>“先增减，后使用”</strong> ，而后缀操作符则正好相反，是 <strong>“先使用 后增减”</strong> 。</li>
+<li>自增和自减操作符的操作数必须是一个变量，一个属性访问器或一个索引指示器访问器，而不能是常量或者其它的表达式。<strong>比如 5++和 (x+y)– 都是非法的</strong>。如果操作数是一个访问器，那么这个访问器必须同时支持读和写。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">    { </span><br><span class="line">        int x = 5; </span><br><span class="line">        int y = x++; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">        y = ++x; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">//输出结果为：5，7</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>checked 和 unchecked 操作符<ul>
+<li>完全不知道unchecked有何意义</li>
+<li>checked 和 unchecked 操作符只影响置于其后括号之中运算的溢出检查。它们不会影响作为表达式结果的被调用的方法成员。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	static int F(int x, int y) </span><br><span class="line">    { </span><br><span class="line">        return x * y;</span><br><span class="line">	}</span><br><span class="line">	static int G() </span><br><span class="line">    { </span><br><span class="line">        return checked(F(1000000, 1000000));</span><br><span class="line">	} </span><br><span class="line">}</span><br><span class="line">//G 方法中的 checked 不会影响函数 F 方法中的 X Y 运算，因此 X*Y 运算在默认溢出检查的上下文中</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="2-6-流程控制"><a href="#2-6-流程控制" class="headerlink" title="2.6 流程控制"></a>2.6 流程控制</h3><ul>
+<li>if 语句<ul>
+<li>C#的 if 语句与 C、C++不同，即 if 后的<strong>逻辑表达式必须是布尔类型</strong>的。</li>
+</ul>
+</li>
+<li>switch语句<ul>
+<li>c 和 c++语言允许 switch 语句中 case 标签后不出现 break 语句，但 c#不允许这样，它要求每个标签项后使用 break 语句或跳转语句 goto，即<strong>不允许从一个 case 自动遍历到其它 case</strong> ，否则编译时将报错</li>
+<li>goto case label 跳至标签语句执行 </li>
+<li>goto default 跳至 default 标签执行</li>
+<li>C#可以把字符串当成 常量表达式来使用，所以 switch 语句的控制类型可以是 string 类型</li>
+<li>在 C#中 case 标签的引用值允许是 null</li>
+<li>一般说来每个 switch 项都以 break，goto case 或 goto default 结束，但实际上任何一种不导致“ 遍历 ”的结构都是允许的，例如 ：throw 和 return 语句同样可以跳出控制之外，因而下例是正确的：</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">switch(i)</span><br><span class="line">{ </span><br><span class="line">    case 0: while(true)	F();</span><br><span class="line">	case 1: throw new ArgumentException();</span><br><span class="line">	case 2: return;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p>foreach 语句</p>
+<ul>
+<li>循环变量是一个只读型局部变量，如果试图改变它的值或将它作为一个 ref 或 out 类型 的参数传递，都将引发编译时错误。</li>
+</ul>
+</li>
+<li><p>预处理指令</p>
+<ul>
+<li>符号定义（#define）必须放在所有其它语句的前面，或者说是放在所有 实代码 real code 的前面</li>
+</ul>
+</li>
+<li><p>条件编译</p>
+<ul>
+<li>一条#if语句（必须有）</li>
+<li>零或多条#elif语句</li>
+<li>零或一条#else 语句 </li>
+<li>一条#endif语句（必须有）</li>
+</ul>
+</li>
+<li><p>==异常处理==</p>
+<ul>
+<li>太多了，建议看书P96</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-7-面向对象的程序设计"><a href="#2-7-面向对象的程序设计" class="headerlink" title="2.7 面向对象的程序设计"></a>2.7 面向对象的程序设计</h3><ul>
+<li>感觉有点像软件工程</li>
+<li>操作顺序如下：<ul>
+<li>论域分析阶段和应用分析阶段</li>
+<li>依次构建：类和对象层、属性层、服务层、结构层、主题层 </li>
+<li>在设计阶段，主要对系统的四个组成部分进行设计，它们是问题论域部分、用户界面部分、任务管理部分和数据管理部分</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-8-方法"><a href="#2-8-方法" class="headerlink" title="2.8 方法"></a>2.8 方法</h3><ul>
+<li><p>修饰符</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+<li>extern</li>
+</ul>
+</li>
+<li><p>参数</p>
+<ul>
+<li>值参数：当利用值向方法传递参数时，编译程序给实参的值做一份拷贝，并且将此拷贝传递给该方法。被调用的方法不会修改内存中实参的值，所以使用值参数时，可以保证实际值是安全的。</li>
+<li>引用型参数（以 ref修饰符声明）：当利用引用型参数向方法传递形参时，编译程序将把实际值在内存中的地址传递给方法。</li>
+<li>输出参数（以 out 修饰符声明）：与引用型参数类似，输出型参数也不开辟新的内存区域。与引用型参数的差别在于，调用方法前无需对变量进行初始化。输出型参数用于传递方法返回的数据。</li>
+<li>数组型参数（以 params 修饰符声明）：如果形参表中包含了数组型参数，那么它必须在参数表中位于最后。另外，参数只允许是一维数组。比如，string[] 和 string[] [] 类型都可以作为数组型参数，而 string[,]则不能。最后，数组型参数不能再有 ref 和 out 修饰符。</li>
+</ul>
+</li>
+<li><p>操作符重载</p>
+<ul>
+<li>下列操作符都是可以重载的： +  -  * / ! % ~ &amp;  ++ |   ^  true  &lt;&lt;  false  &gt;&gt;  ==  !=  &gt;   &lt;   &gt;=   &lt;=</li>
+<li>一些操作符是不允许进行重载的 如： =   &amp;&amp;   ||   ?:    new    typeof    sizeof    is</li>
+<li>操作符能重载着实有点强</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-9-域、属性、"><a href="#2-9-域、属性、" class="headerlink" title="2.9 域、属性、"></a>2.9 域、属性、</h3><ul>
+<li><p>域的修饰符可以是：</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>readonly</li>
+</ul>
+</li>
+<li><p>域的声明中如果加上了 readonly 修饰符，表明该域为只读域。对于只读域我们只能在域的定义中和它所属类的构造函数中进行修改，在其它情况下，域是 “只读” 的。</p>
+</li>
+<li><p>初始化</p>
+<ul>
+<li>在 C#中，系统将为每个未经初始化的变量提供一个默认值</li>
+<li>bool类型默认值为：false</li>
+<li>对于所有引用类型的变量，默认值为 null</li>
+<li>域的默认初始化分为两种情况：对于静态域，类在装载时对其进行初始化；对于非静态域，在类的实例创建时进行初始化。在默认的初始化之前，域的值是不可预测的</li>
+</ul>
+</li>
+<li><p>属性的修饰符有：</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li><p>虽然属性和域的语法比较类似，但不能把属性当做变量那样使用，也不能把属性作为引用型参数或输出参数来进行传递</p>
+</li>
+</ul>
+<h3 id="2-10-事件和索引指示器（实话说没看懂）"><a href="#2-10-事件和索引指示器（实话说没看懂）" class="headerlink" title="2.10 事件和索引指示器（实话说没看懂）"></a>2.10 事件和索引指示器（实话说没看懂）</h3><ul>
+<li>事件的修饰符可以是：<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li>static, virtual, override 和 abstract 修饰符同一时刻只能出现一个</li>
+<li>索引指示器可以使用的修饰符有：<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li>大致作用就是：让一个类拥有数组般的索引。</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line">class Team</span><br><span class="line">{</span><br><span class="line">    string[] s_name = new string[8];</span><br><span class="line">    public string this[int nIndex]</span><br><span class="line">    {</span><br><span class="line">        get</span><br><span class="line">        {</span><br><span class="line">            return s_name[nIndex];</span><br><span class="line">        }</span><br><span class="line">        set</span><br><span class="line">        {</span><br><span class="line">            s_name[nIndex] = value;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">class Test</span><br><span class="line">{</span><br><span class="line">    public static void Main()</span><br><span class="line">    {</span><br><span class="line">        Team t1 = new Team();</span><br><span class="line">        for (int i = 0; i &lt; 6; i++)</span><br><span class="line">        {</span><br><span class="line">            t1[i] = "" + i;</span><br><span class="line">            Console.WriteLine(t1[i]);</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="2-11-继承"><a href="#2-11-继承" class="headerlink" title="2.11 继承"></a>2.11 继承</h3><ul>
+<li><p>构造函数和析构函数不能被继承，除此以外的其它成员，不论对它们定义了怎样的访问方式，都能被继承。基类中成员的访问方式只能决定派生类能否访问它们</p>
+</li>
+<li><p>派生类如果定义了与继承而来的成员同名的新成员，就可以覆盖已继承的成员。但这并不因为这派生类删除了这些成员，只是不能再访问这些成员</p>
+</li>
+<li><p>当类中的方法声明前加上了 virtual 修饰符，我们称之为虚方法，反之为非虚。使用了 virtual 修饰符后，不允许再有 static, abstract, 或 override 修饰符。</p>
+<ul>
+<li>对于非虚的方法，无论被其所在类的实例调用，还是被这个类的派生类的实例调用，方法的执行方式不变。 而对于虚方法，它的执行方式可以被派生类改变，这种改变是通过方法的重载来实现的</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-else"><a href="#3-else" class="headerlink" title="3. else"></a>3. else</h2><ul>
+<li><p>C# 中字符串前面添加@符号</p>
+<ul>
+<li>添加@符号是为了后面所包含的字符串的完整性，解决因为\符号而可能导致的转义现象，而表达错含义。<br>例如：string path = “C:\dos\lock.exe”;<br>保证安全使用了string path = @ “C:\dos\lock.exe”;</li>
+</ul>
+</li>
+<li><p>String 和 string的区别</p>
+<ul>
+<li>string是c#中System.String的别名。所以从技术上讲，没有区别。就像int对System.Int32。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">object:  System.Object</span><br><span class="line">string:  System.String</span><br><span class="line">bool:    System.Boolean</span><br><span class="line">byte:    System.Byte</span><br><span class="line">sbyte:   System.SByte</span><br><span class="line">short:   System.Int16</span><br><span class="line">ushort:  System.UInt16</span><br><span class="line">int:     System.Int32</span><br><span class="line">uint:    System.UInt32</span><br><span class="line">long:    System.Int64</span><br><span class="line">ulong:   System.UInt64</span><br><span class="line">float:   System.Single</span><br><span class="line">double:  System.Double</span><br><span class="line">decimal: System.Decimal</span><br><span class="line">char:    System.Char</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>异步编程<ul>
+<li>被<code>async</code>修饰的方法即为异步方法。</li>
+<li>若一个方法包含异步方法，则这个方法也为异步方法，即异步方法具有传染性。</li>
+<li>在异步方法中才能使用<code>await</code></li>
+<li><code>await</code> 关键字提供了一种非阻塞方式来启动任务，然后在此任务完成时继续执行；大致作用就是，当当前方法执行到<code>await</code>时，会等待<code>await</code>的异步方法执行完，再继续往下执行。</li>
+<li>在异步方法中不要使用Thread.Sleep()，因为他会阻塞调用线程，要使用await Task.Delay()</li>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/concepts/async/">异步编程文档</a></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line"></span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//将可以异步执行的独立操作移动到前面</span><br><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line"></span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line"></span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>建议使用方法二<ul>
+<li>方法一和方法二花费的时间差不多，但是方法二占用的内存比方法一少很多</li>
+<li>原因暂时未知</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">//读取一个文件夹下的所有文件并计算出字符长总长度</span><br><span class="line">using System;</span><br><span class="line">using System.IO;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Linq;</span><br><span class="line"></span><br><span class="line">namespace whenall</span><br><span class="line">{</span><br><span class="line">    class Program</span><br><span class="line">    {</span><br><span class="line">        static async Task Main(string[] args)</span><br><span class="line">        {</span><br><span class="line">            DateTime beforeDT = System.DateTime.Now;</span><br><span class="line"></span><br><span class="line">            /*此为暴力循环，适合只有少数文件时</span><br><span class="line">            Task&lt;string&gt; t1= File.ReadAllTextAsync(@"e:\temp\1.txt");</span><br><span class="line">            Task&lt;string&gt; t2= File.ReadAllTextAsync(@"e:\temp\2.txt");</span><br><span class="line">            Task&lt;string&gt; t3= File.ReadAllTextAsync(@"e:\temp\3.txt");</span><br><span class="line">            string []vs = await Task.WhenAll(t1,t2,t3);</span><br><span class="line">            Console.WriteLine(vs[0]);</span><br><span class="line">            Console.WriteLine(vs[1]);</span><br><span class="line">            Console.WriteLine(vs[2]);</span><br><span class="line">            */</span><br><span class="line"></span><br><span class="line">			//方法一开始</span><br><span class="line">            string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            Task&lt;string&gt;[] vs = new Task&lt;string&gt;[files.Length];</span><br><span class="line">            for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                var s = File.ReadAllTextAsync(files[i]);</span><br><span class="line">                vs[i] = s;</span><br><span class="line">            }</span><br><span class="line">            string[] st = await Task.WhenAll(vs);</span><br><span class="line">            int sum = 0;</span><br><span class="line">            for (int i = 0; i &lt; st.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                sum += st[i].Length;</span><br><span class="line">            }</span><br><span class="line">            Console.WriteLine(sum);</span><br><span class="line">            //方法一结束</span><br><span class="line"></span><br><span class="line">            //方法二</span><br><span class="line">            //string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            //Task&lt;int&gt;[] vs = new Task&lt;int&gt;[files.Length];</span><br><span class="line">            //for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            //{</span><br><span class="line">            //    vs[i] = getstringcount(files[i]);</span><br><span class="line">            //}</span><br><span class="line">            //int[] counts = await Task.WhenAll(vs);</span><br><span class="line">            //Console.WriteLine(counts.Sum());</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            DateTime afterDT = System.DateTime.Now;</span><br><span class="line">            TimeSpan ts = afterDT.Subtract(beforeDT);</span><br><span class="line">            Console.WriteLine("DateTime costed is: {0}ms", ts.TotalMilliseconds);</span><br><span class="line">            Console.ReadLine();</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">        //static async Task&lt;int&gt; getstringcount(string path)</span><br><span class="line">        //{</span><br><span class="line">        //    string s = await File.ReadAllTextAsync(path);</span><br><span class="line">        //    return s.Length;</span><br><span class="line">        //}</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.xkstart.xyz/2021/ckvgnm6a00000d4n03kbg4rwe/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%AD%E8%A8%80/" rel="tag">语言</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2021/about/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">About Me</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "LkHLsTliaKfktTz4i1zbeINr-gzGzoHsz",
+    app_key: "hviNekd2fCoC9KWDPGzl4z29",
+    path: window.location.pathname,
+    avatar: "wavatar",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2021
+        <i class="ri-heart-fill heart_icon"></i> xkstart
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        
+        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
+        <span class="division">|</span>
+        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+      <li>
+          <img src="/images/beian.png"></img>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_black" rel="nofollow">京公网安备11000002000001号</a>
+      </li>
+        
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="float_btns">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+      </div>
+    </main>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer-side.svg" alt="夏"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2021/about">关于我</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/player/">播放器</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-2.0.3.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
+        src="//music.163.com/outchain/player?type=2&id=1811881283&auto=0&height=32"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
+    
+  </div>
+</body>
+
+</html>

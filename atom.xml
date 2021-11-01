@@ -6,7 +6,7 @@
   <link href="https://www.xkstart.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.xkstart.xyz/"/>
-  <updated>2021-06-27T09:35:12.621Z</updated>
+  <updated>2021-11-01T12:40:03.134Z</updated>
   <id>https://www.xkstart.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C#</title>
+    <link href="https://www.xkstart.xyz/2021/ckvgnm6a00000d4n03kbg4rwe/"/>
+    <id>https://www.xkstart.xyz/2021/ckvgnm6a00000d4n03kbg4rwe/</id>
+    <published>2021-11-01T12:39:22.000Z</published>
+    <updated>2021-11-01T12:40:03.134Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://www.xkstart.xyz/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="C#" scheme="https://www.xkstart.xyz/categories/%E5%AD%A6%E4%B9%A0/C/"/>
+    
+    
+    <category term="语言" scheme="https://www.xkstart.xyz/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>About Me</title>
