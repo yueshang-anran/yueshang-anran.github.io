@@ -1,60 +1,350 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>HelloMarkdown</title>
-    <url>/2021/cksd2pdm100011sn0fek1g8tj/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Basic-Markdown-Syntax"><a href="#Basic-Markdown-Syntax" class="headerlink" title="Basic Markdown Syntax"></a>Basic Markdown Syntax</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><blockquote>
-<p>区块引用</p>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<p><code>标记</code></p>
-<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">	std::cout &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-
-<p><em>斜体</em> <em>斜体</em></p>
-<p><strong>粗体</strong> <strong>粗体</strong></p>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ol>
-<hr>
-<hr>
-<hr>
-<ul>
-<li><input disabled="" type="checkbox"> a</li>
-<li><input checked="" disabled="" type="checkbox"> b</li>
-<li><input disabled="" type="checkbox"> c</li>
-<li><input disabled="" type="checkbox"> d</li>
-</ul>
-<p><a href="https://duckduckgo.com/">DuckDuckGo</a></p>
-<p><img src="https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg" alt="DuckDuckGo"></p>
-<p>typora行内公式：</p>
-<p>​    偏好中勾选内联公式，重启后，输入$，按Esc，会自动补上个 ＄，然后在两个＄之间输入公式</p>
-<p>如何退出代码块：</p>
-<p>​    按两次回车</p>
+    <title>欢迎</title>
+    <url>/2020/welcome/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="欢迎来到我的网络空间。"><a href="#欢迎来到我的网络空间。" class="headerlink" title="欢迎来到我的网络空间。"></a>欢迎来到我的网络空间。</h2><p>在这里我将记录我学到的、我看到的和我思考的。</p>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>随笔</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/cl3s3k3ni0007asn02qrg35dl/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>2021.11.19  22.10</p>
+<p>我痛恨自己在该说话的时候保持沉默。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>C#</title>
+    <url>/2021/cl3s3k3p00027asn0apvdhm1z/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="1-C-和-NET"><a href="#1-C-和-NET" class="headerlink" title="1. C#和.NET"></a>1. C#和.NET</h1><p>​        .NET是一个平台（有点像Java的JRE），C#是一门语言。C#是在.NET上运行的。.NET里有个东西叫<strong>通用语言运行平台</strong>（<strong>Common Language Runtime</strong>，简称<strong>CLR</strong>），CLR是微软为他们的.NET的虚拟机所选用的名称（就相当于Java的JDK）。.NET上不止可以跑C#这一个语言，只要这个语言满足<strong>公用语言规范 Common Language Specification CLS</strong> 即可，如：VB，VC都可以在.NET上跑。</p>
+<h1 id="2-C"><a href="#2-C" class="headerlink" title="2. C#"></a>2. C#</h1><h3 id="2-1-注释"><a href="#2-1-注释" class="headerlink" title="2.1 注释"></a>2.1 注释</h3><ul>
+<li><p>避免在 <strong>“//“</strong> 之后的单行注解中使用反斜杠符号  <strong>“ \ “</strong> 。因为反斜杠符号 <strong>“ \ ”</strong> 在 C# 中是一个续行符，会把下一行的代码拼接上来。这样，下一行代码直接被 <strong>“//”</strong> 变成注释了。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Console.WriteLine(“The result is:{0}” , // \ </span><br><span class="line">                  150 );</span><br><span class="line">/*上面代码直接变成了：</span><br><span class="line">	Console.WriteLine(“The result is:{0}” , // 150 );</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>分割符 <em><em>“ /</em> “</em>* 和 <strong>” <em>/ “</em>* 之间的注释不能有嵌套注释。这是因为C#编译器从遇到第一个分割符 *<em>“ /</em> “</strong> 开始，将忽略下一个 <em><em>“ /</em> “</em>* ，直到遇到 *<em>” <em>/ “</em></em> 才认为注释结束，那么多余的 *<em>” <em>/ “</em></em> 就会报错。</p>
+</li>
+</ul>
+<h3 id="2-2-类"><a href="#2-2-类" class="headerlink" title="2.2 类"></a>2.2 类</h3><ul>
+<li>类和结构同样都包含了自己的成员，但它们之间最主要的区别在于：类是引用类型，而结构是值类型。</li>
+<li>类的修饰符<ul>
+<li>new     仅允许在嵌套类声明时使用，表明类中隐藏了由基类中继承而来的、与基类中同名的成员</li>
+<li>public 表示不限制对该类的访问</li>
+<li>protected 表示只能从所在类和所在类派生的子类进行访问</li>
+<li>internal 只有其所在类才能访问</li>
+<li>private 只有对包 .Net 中的应用程序或库才能访问</li>
+<li>abstract 抽象类，不允许建立类的实例</li>
+<li>sealed 密封类，不允许被继承</li>
+<li>==如果在声明中没有出现成员的访问修饰符，按照默认方式成员为私有的（private）==</li>
+</ul>
+</li>
+<li>构造函数<ul>
+<li>任何构造函数的执行都隐式地调用了系统提供默认的构造函数 base()</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-3-变量"><a href="#2-3-变量" class="headerlink" title="2.3 变量"></a>2.3 变量</h3><ul>
+<li>静态变量、非静态变量、数组元素都推荐在初始化时赋值。</li>
+</ul>
+<h3 id="2-4-类型转换"><a href="#2-4-类型转换" class="headerlink" title="2.4 类型转换"></a>2.4 类型转换</h3><ul>
+<li>隐式转换<ul>
+<li>其它整型值不能自动转换为 char 类型。</li>
+<li>隐式枚举转换允许把十进制整数 0 转换成任何枚举类型，对应其它的整数则不存在这种隐式转换。</li>
+<li>隐式引用转换。能否向上转换？</li>
+</ul>
+</li>
+<li>显式转换<ul>
+<li>编译器将针对转换进行溢出检测，如果没有发生溢出，转换成功，否则抛出一个 OverflowException 异常。</li>
+</ul>
+</li>
+<li>C#采用 Unicode 字符集存储字符。</li>
+</ul>
+<h3 id="2-5-表达式"><a href="#2-5-表达式" class="headerlink" title="2.5 表达式"></a>2.5 表达式</h3><ul>
+<li>加法运算<ul>
+<li>代表合并：加法操作符作用于 delegate 类型的变量。<ul>
+<li>D operator +(D x, D y);<pre><code>其中D是一个 delegate 类型。式子中如果两个操作数是同一 delegate 类型 D 时，则加法操作符执行代表合并运算，如果第一个操作数为 null ，那么结果是第二个操作数的值。反之，如果第二个操 作数为 null 则结果是第一个操作数的值。
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>除法运算<ul>
+<li>在除法运算过程中，默认的返回值的类型与精度最高的操作数类型相同。比如，5/2的结果为 2，而5.0/2 结果为 2.5。如果两个整数类型的变量相除又不能整除的话，返回的结果是不大于相除之值的最大整数。</li>
+</ul>
+</li>
+<li>比较运算<ul>
+<li>如果有一个操作数为 NAN(空)那么除 <strong>“ != ”</strong> 外所有操作符结果为 false，<strong>“ != ”</strong> 的运算结果为 true ，对于任何两个操作数 <strong>“ x!=y ”</strong> 总等价于 <strong>“ !(x == y) ”</strong> 。可是当一个 或两个操作数为 NaN(空)时， &lt; ，&gt; ，&lt;= 和&gt;= 操作符的结果和其相反操作符的逻辑非的结果是不同的。如， x 或 y 为 NaN ，则 x&lt;y 总是 false 的 ，但是 !(x == y) 为 true。</li>
+<li>正零和负零被认为是相等的<ul>
+<li>负无穷被认为小于其它任何值，只是等于另一个负无穷 </li>
+<li>正无穷被认为大于其它任何值，只是等于另一个正无穷</li>
+</ul>
+</li>
+<li>当操作数为 bool 类型时 != 操作符和 ^ 操作符有相等的结果。</li>
+<li>下列条件之一成立则认为两个字符串值相等<ul>
+<li>两个字符串值都为 null</li>
+<li>两个字符串是字符串长度相同 对应的字符序列也相同的非空字符串 </li>
+</ul>
+</li>
+<li><strong>注意：</strong>字符串等价操作符比较的是两个字符串的值，而不是字符串引用。当两个单独的字符串实例含有相同的字符串序列，则认为这两个字符串的值相等。引用类型等价操作符可以用于比较两个字符串引用，不是比较两个字符串的值。</li>
+</ul>
+</li>
+<li>as操作符<ul>
+<li>as 操作符用于通过引用转换或装箱转换将一个值显式地转换成指定的引用类型。不像显式类型转换， as 不会产生任何异常（顶多报个警告）。 如果转换不可以进行 ，那么结果值为 null 。形如“ e as T ”的运算， e 定是一个表达式且 T 是一个引用类型 。返回值的类型总是 T 的类型，并且结果总是一个值。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">	{ </span><br><span class="line">        Console.WriteLine(1 is int); </span><br><span class="line">        Console.WriteLine(1 is float); </span><br><span class="line">        Console.WriteLine(1.0 is float); </span><br><span class="line">        Console.WriteLine(1.0 is double);</span><br><span class="line">	}</span><br><span class="line">}</span><br><span class="line">/*</span><br><span class="line">输出为: </span><br><span class="line">	True</span><br><span class="line">	False </span><br><span class="line">	False (由此可以看出来，1.0 默认是double类型)</span><br><span class="line">	True</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p>如果表达式中同时存在着多个逻辑运算符，逻辑非的优先级最高，逻辑与的优先级高于逻辑或。</p>
+</li>
+<li><p>三元操作符：</p>
+<ul>
+<li>条件操作符是向右关联的，也就是说，从左向右分组计算。例如：表达式 <strong>a? b: c? d: e</strong> 将按 **a? b: (c? d: e)**形式执行。</li>
+<li>？：的第一个操作数必须是一个可以隐式转换成 bool 型的表达式或者执行操作符true 类型的表达式，如果上述这两个条件一个也不满足，则发生运行时错误。</li>
+<li>？：的第二和第三个操作数控制了条件表达式的类型。设 x 和 y 分别是第二个和第三个操作数的类型，那么<ul>
+<li>如果 x和 y为同一类型，则该类型即是条件表达式的类型。</li>
+<li>否则，如果从 x到 y存在一个隐式转换，但不存在 y到 x的转换，那么 y是条件表达式的类型。</li>
+<li>否则，如果从 y到 x存在一个隐式转换，但不存在 x到 y的转换，那么 x是条件表达式的类型。</li>
+<li>否则，没有定义任何表达式类型，发生编译时错误。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>自增和自减</p>
+<ul>
+<li>自增和自减操作符又有前后缀之分。对于前缀操作符，遵循的原则是 <strong>“先增减，后使用”</strong> ，而后缀操作符则正好相反，是 <strong>“先使用 后增减”</strong> 。</li>
+<li>自增和自减操作符的操作数必须是一个变量，一个属性访问器或一个索引指示器访问器，而不能是常量或者其它的表达式。<strong>比如 5++和 (x+y)– 都是非法的</strong>。如果操作数是一个访问器，那么这个访问器必须同时支持读和写。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">    { </span><br><span class="line">        int x = 5; </span><br><span class="line">        int y = x++; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">        y = ++x; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">//输出结果为：5，7</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>checked 和 unchecked 操作符<ul>
+<li>完全不知道unchecked有何意义</li>
+<li>checked 和 unchecked 操作符只影响置于其后括号之中运算的溢出检查。它们不会影响作为表达式结果的被调用的方法成员。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	static int F(int x, int y) </span><br><span class="line">    { </span><br><span class="line">        return x * y;</span><br><span class="line">	}</span><br><span class="line">	static int G() </span><br><span class="line">    { </span><br><span class="line">        return checked(F(1000000, 1000000));</span><br><span class="line">	} </span><br><span class="line">}</span><br><span class="line">//G 方法中的 checked 不会影响函数 F 方法中的 X Y 运算，因此 X*Y 运算在默认溢出检查的上下文中</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="2-6-流程控制"><a href="#2-6-流程控制" class="headerlink" title="2.6 流程控制"></a>2.6 流程控制</h3><ul>
+<li>if 语句<ul>
+<li>C#的 if 语句与 C、C++不同，即 if 后的<strong>逻辑表达式必须是布尔类型</strong>的。</li>
+</ul>
+</li>
+<li>switch语句<ul>
+<li>c 和 c++语言允许 switch 语句中 case 标签后不出现 break 语句，但 c#不允许这样，它要求每个标签项后使用 break 语句或跳转语句 goto，即<strong>不允许从一个 case 自动遍历到其它 case</strong> ，否则编译时将报错</li>
+<li>goto case label 跳至标签语句执行 </li>
+<li>goto default 跳至 default 标签执行</li>
+<li>C#可以把字符串当成 常量表达式来使用，所以 switch 语句的控制类型可以是 string 类型</li>
+<li>在 C#中 case 标签的引用值允许是 null</li>
+<li>一般说来每个 switch 项都以 break，goto case 或 goto default 结束，但实际上任何一种不导致“ 遍历 ”的结构都是允许的，例如 ：throw 和 return 语句同样可以跳出控制之外，因而下例是正确的：</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">switch(i)</span><br><span class="line">{ </span><br><span class="line">    case 0: while(true)	F();</span><br><span class="line">	case 1: throw new ArgumentException();</span><br><span class="line">	case 2: return;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p>foreach 语句</p>
+<ul>
+<li>循环变量是一个只读型局部变量，如果试图改变它的值或将它作为一个 ref 或 out 类型 的参数传递，都将引发编译时错误。</li>
+</ul>
+</li>
+<li><p>预处理指令</p>
+<ul>
+<li>符号定义（#define）必须放在所有其它语句的前面，或者说是放在所有 实代码 real code 的前面</li>
+</ul>
+</li>
+<li><p>条件编译</p>
+<ul>
+<li>一条#if语句（必须有）</li>
+<li>零或多条#elif语句</li>
+<li>零或一条#else 语句 </li>
+<li>一条#endif语句（必须有）</li>
+</ul>
+</li>
+<li><p>==异常处理==</p>
+<ul>
+<li>太多了，建议看书P96</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-7-面向对象的程序设计"><a href="#2-7-面向对象的程序设计" class="headerlink" title="2.7 面向对象的程序设计"></a>2.7 面向对象的程序设计</h3><ul>
+<li>感觉有点像软件工程</li>
+<li>操作顺序如下：<ul>
+<li>论域分析阶段和应用分析阶段</li>
+<li>依次构建：类和对象层、属性层、服务层、结构层、主题层 </li>
+<li>在设计阶段，主要对系统的四个组成部分进行设计，它们是问题论域部分、用户界面部分、任务管理部分和数据管理部分</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-8-方法"><a href="#2-8-方法" class="headerlink" title="2.8 方法"></a>2.8 方法</h3><ul>
+<li><p>修饰符</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+<li>extern</li>
+</ul>
+</li>
+<li><p>参数</p>
+<ul>
+<li>值参数：当利用值向方法传递参数时，编译程序给实参的值做一份拷贝，并且将此拷贝传递给该方法。被调用的方法不会修改内存中实参的值，所以使用值参数时，可以保证实际值是安全的。</li>
+<li>引用型参数（以 ref修饰符声明）：当利用引用型参数向方法传递形参时，编译程序将把实际值在内存中的地址传递给方法。</li>
+<li>输出参数（以 out 修饰符声明）：与引用型参数类似，输出型参数也不开辟新的内存区域。与引用型参数的差别在于，调用方法前无需对变量进行初始化。输出型参数用于传递方法返回的数据。</li>
+<li>数组型参数（以 params 修饰符声明）：如果形参表中包含了数组型参数，那么它必须在参数表中位于最后。另外，参数只允许是一维数组。比如，string[] 和 string[] [] 类型都可以作为数组型参数，而 string[,]则不能。最后，数组型参数不能再有 ref 和 out 修饰符。</li>
+</ul>
+</li>
+<li><p>操作符重载</p>
+<ul>
+<li>下列操作符都是可以重载的： +  -  * / ! % ~ &amp;  ++ |   ^  true  &lt;&lt;  false  &gt;&gt;  ==  !=  &gt;   &lt;   &gt;=   &lt;=</li>
+<li>一些操作符是不允许进行重载的 如： =   &amp;&amp;   ||   ?:    new    typeof    sizeof    is</li>
+<li>操作符能重载着实有点强</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-9-域、属性、"><a href="#2-9-域、属性、" class="headerlink" title="2.9 域、属性、"></a>2.9 域、属性、</h3><ul>
+<li><p>域的修饰符可以是：</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>readonly</li>
+</ul>
+</li>
+<li><p>域的声明中如果加上了 readonly 修饰符，表明该域为只读域。对于只读域我们只能在域的定义中和它所属类的构造函数中进行修改，在其它情况下，域是 “只读” 的。</p>
+</li>
+<li><p>初始化</p>
+<ul>
+<li>在 C#中，系统将为每个未经初始化的变量提供一个默认值</li>
+<li>bool类型默认值为：false</li>
+<li>对于所有引用类型的变量，默认值为 null</li>
+<li>域的默认初始化分为两种情况：对于静态域，类在装载时对其进行初始化；对于非静态域，在类的实例创建时进行初始化。在默认的初始化之前，域的值是不可预测的</li>
+</ul>
+</li>
+<li><p>属性的修饰符有：</p>
+<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li><p>虽然属性和域的语法比较类似，但不能把属性当做变量那样使用，也不能把属性作为引用型参数或输出参数来进行传递</p>
+</li>
+</ul>
+<h3 id="2-10-事件和索引指示器（实话说没看懂）"><a href="#2-10-事件和索引指示器（实话说没看懂）" class="headerlink" title="2.10 事件和索引指示器（实话说没看懂）"></a>2.10 事件和索引指示器（实话说没看懂）</h3><ul>
+<li>事件的修饰符可以是：<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>static</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li>static, virtual, override 和 abstract 修饰符同一时刻只能出现一个</li>
+<li>索引指示器可以使用的修饰符有：<ul>
+<li>new</li>
+<li>public</li>
+<li>protected</li>
+<li>internal</li>
+<li>private</li>
+<li>virtual</li>
+<li>sealed</li>
+<li>override</li>
+<li>abstract</li>
+</ul>
+</li>
+<li>大致作用就是：让一个类拥有数组般的索引。</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">class Team</span><br><span class="line">{</span><br><span class="line">    string[] s_name = new string[8];</span><br><span class="line">    public string this[int nIndex]</span><br><span class="line">    {</span><br><span class="line">        get</span><br><span class="line">        {</span><br><span class="line">            return s_name[nIndex];</span><br><span class="line">        }</span><br><span class="line">        set</span><br><span class="line">        {</span><br><span class="line">            s_name[nIndex] = value;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">class Test</span><br><span class="line">{</span><br><span class="line">    public static void Main()</span><br><span class="line">    {</span><br><span class="line">        Team t1 = new Team();</span><br><span class="line">        for (int i = 0; i &lt; 6; i++)</span><br><span class="line">        {</span><br><span class="line">            t1[i] = "" + i;</span><br><span class="line">            Console.WriteLine(t1[i]);</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="2-11-继承"><a href="#2-11-继承" class="headerlink" title="2.11 继承"></a>2.11 继承</h3><ul>
+<li><p>构造函数和析构函数不能被继承，除此以外的其它成员，不论对它们定义了怎样的访问方式，都能被继承。基类中成员的访问方式只能决定派生类能否访问它们</p>
+</li>
+<li><p>派生类如果定义了与继承而来的成员同名的新成员，就可以覆盖已继承的成员。但这并不因为这派生类删除了这些成员，只是不能再访问这些成员</p>
+</li>
+<li><p>当类中的方法声明前加上了 virtual 修饰符，我们称之为虚方法，反之为非虚。使用了 virtual 修饰符后，不允许再有 static, abstract, 或 override 修饰符。</p>
+<ul>
+<li>对于非虚的方法，无论被其所在类的实例调用，还是被这个类的派生类的实例调用，方法的执行方式不变。 而对于虚方法，它的执行方式可以被派生类改变，这种改变是通过方法的重载来实现的</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-else"><a href="#3-else" class="headerlink" title="3. else"></a>3. else</h2><ul>
+<li><p>C# 中字符串前面添加@符号</p>
+<ul>
+<li>添加@符号是为了后面所包含的字符串的完整性，解决因为\符号而可能导致的转义现象，而表达错含义。<br>例如：string path = “C:\dos\lock.exe”;<br>保证安全使用了string path = @ “C:\dos\lock.exe”;</li>
+</ul>
+</li>
+<li><p>String 和 string的区别</p>
+<ul>
+<li>string是c#中System.String的别名。所以从技术上讲，没有区别。就像int对System.Int32。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">object:  System.Object</span><br><span class="line">string:  System.String</span><br><span class="line">bool:    System.Boolean</span><br><span class="line">byte:    System.Byte</span><br><span class="line">sbyte:   System.SByte</span><br><span class="line">short:   System.Int16</span><br><span class="line">ushort:  System.UInt16</span><br><span class="line">int:     System.Int32</span><br><span class="line">uint:    System.UInt32</span><br><span class="line">long:    System.Int64</span><br><span class="line">ulong:   System.UInt64</span><br><span class="line">float:   System.Single</span><br><span class="line">double:  System.Double</span><br><span class="line">decimal: System.Decimal</span><br><span class="line">char:    System.Char</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>异步编程<ul>
+<li>被<code>async</code>修饰的方法即为异步方法。</li>
+<li>若一个方法包含异步方法，则这个方法也为异步方法，即异步方法具有传染性。</li>
+<li>在异步方法中才能使用<code>await</code></li>
+<li><code>await</code> 关键字提供了一种非阻塞方式来启动任务，然后在此任务完成时继续执行；大致作用就是，当当前方法执行到<code>await</code>时，会等待<code>await</code>的异步方法执行完，再继续往下执行。</li>
+<li>在异步方法中不要使用Thread.Sleep()，因为他会阻塞调用线程，要使用await Task.Delay()</li>
+<li><a href="https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/concepts/async/">异步编程文档</a></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line"></span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//将可以异步执行的独立操作移动到前面</span><br><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line"></span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line"></span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>建议使用方法二<ul>
+<li>方法一和方法二花费的时间差不多，但是方法二占用的内存比方法一少很多</li>
+<li>原因暂时未知</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">//读取一个文件夹下的所有文件并计算出字符长总长度</span><br><span class="line">using System;</span><br><span class="line">using System.IO;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Linq;</span><br><span class="line"></span><br><span class="line">namespace whenall</span><br><span class="line">{</span><br><span class="line">    class Program</span><br><span class="line">    {</span><br><span class="line">        static async Task Main(string[] args)</span><br><span class="line">        {</span><br><span class="line">            DateTime beforeDT = System.DateTime.Now;</span><br><span class="line"></span><br><span class="line">            /*此为暴力循环，适合只有少数文件时</span><br><span class="line">            Task&lt;string&gt; t1= File.ReadAllTextAsync(@"e:\temp\1.txt");</span><br><span class="line">            Task&lt;string&gt; t2= File.ReadAllTextAsync(@"e:\temp\2.txt");</span><br><span class="line">            Task&lt;string&gt; t3= File.ReadAllTextAsync(@"e:\temp\3.txt");</span><br><span class="line">            string []vs = await Task.WhenAll(t1,t2,t3);</span><br><span class="line">            Console.WriteLine(vs[0]);</span><br><span class="line">            Console.WriteLine(vs[1]);</span><br><span class="line">            Console.WriteLine(vs[2]);</span><br><span class="line">            */</span><br><span class="line"></span><br><span class="line">			//方法一开始</span><br><span class="line">            string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            Task&lt;string&gt;[] vs = new Task&lt;string&gt;[files.Length];</span><br><span class="line">            for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                var s = File.ReadAllTextAsync(files[i]);</span><br><span class="line">                vs[i] = s;</span><br><span class="line">            }</span><br><span class="line">            string[] st = await Task.WhenAll(vs);</span><br><span class="line">            int sum = 0;</span><br><span class="line">            for (int i = 0; i &lt; st.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                sum += st[i].Length;</span><br><span class="line">            }</span><br><span class="line">            Console.WriteLine(sum);</span><br><span class="line">            //方法一结束</span><br><span class="line"></span><br><span class="line">            //方法二</span><br><span class="line">            //string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            //Task&lt;int&gt;[] vs = new Task&lt;int&gt;[files.Length];</span><br><span class="line">            //for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            //{</span><br><span class="line">            //    vs[i] = getstringcount(files[i]);</span><br><span class="line">            //}</span><br><span class="line">            //int[] counts = await Task.WhenAll(vs);</span><br><span class="line">            //Console.WriteLine(counts.Sum());</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            DateTime afterDT = System.DateTime.Now;</span><br><span class="line">            TimeSpan ts = afterDT.Subtract(beforeDT);</span><br><span class="line">            Console.WriteLine("DateTime costed is: {0}ms", ts.TotalMilliseconds);</span><br><span class="line">            Console.ReadLine();</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">        //static async Task&lt;int&gt; getstringcount(string path)</span><br><span class="line">        //{</span><br><span class="line">        //    string s = await File.ReadAllTextAsync(path);</span><br><span class="line">        //    return s.Length;</span><br><span class="line">        //}</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>语言</tag>
       </tags>
   </entry>
   <entry>
@@ -74,7 +364,7 @@
   </entry>
   <entry>
     <title>Nginx</title>
-    <url>/2021/cksd2pdmt00071sn0hslu1h23/</url>
+    <url>/2021/cl3s3k3nt000fasn00s4af7au/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>简单来说Nginx就是在服务器（如tomcat）前面再加一层，来缓解服务器的压力</p>
 <h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><h3 id="1-反向代理"><a href="#1-反向代理" class="headerlink" title="1.反向代理"></a>1.反向代理</h3><p>反向代理简单来说就是代理服务器端。讲一下正向代理概念：简单来说就是代理客户端。我们常常用的翻墙就是正向代理，这篇文章介绍了<a href="https://zhuanlan.zhihu.com/p/388491140">翻墙原理</a>。</p>
 <h3 id="2-动静分离"><a href="#2-动静分离" class="headerlink" title="2.动静分离"></a>2.动静分离</h3><p>指图片，css, js之类的静态资源都交给nginx来处理，nginx处理不了的，比如jsp 就交给tomcat来处理</p>
@@ -95,266 +385,41 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello Hexo</title>
-    <url>/2021/cksd2pdmy00091sn0grdz0yef/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown测试</title>
-    <url>/2021/cksd2pdn4000a1sn08lwwelco/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
-<h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 * 和 ** 表示斜体和粗体。</p>
-<p>示例：</p>
-<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
-<span id="more"></span>
-
-<h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
-<p>示例：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></tbody></table></figure>
-
-<p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。</p>
-<h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
-<p>示例：</p>
-<p>这是去往 <a href="https://xkstart.xyz/">本人博客</a> 的链接。</p>
-<h3 id="4-无序列表"><a href="#4-无序列表" class="headerlink" title="4. 无序列表"></a>4. 无序列表</h3><p>使用 *，+，- 表示无序列表。</p>
-<p>示例：</p>
+    <title>穷查理宝典</title>
+    <url>/2021/cl3s3k3o2000rasn0evd3d1mo/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="读书笔记：穷查理宝典"><a href="#读书笔记：穷查理宝典" class="headerlink" title="读书笔记：穷查理宝典"></a>读书笔记：穷查理宝典</h1><p>其实这应该改成听书笔记，我没有买这本书，是在手机上听的，不过有闲钱了，我一定会买这本书。断断续续吧，最近才听完这本书，里面一些观点给我造成很大的震撼。凭我记忆啊，让我想想，书上都教了我什么？</p>
+<p>额，</p>
 <ul>
-<li>无序列表项 一</li>
-<li>无序列表项 二</li>
-<li>无序列表项 三</li>
-</ul>
-<h3 id="5-有序列表"><a href="#5-有序列表" class="headerlink" title="5. 有序列表"></a>5. 有序列表</h3><p>使用数字和点表示有序列表。</p>
-<p>示例：</p>
-<ol>
-<li>有序列表项 一</li>
-<li>有序列表项 二</li>
-<li>有序列表项 三</li>
-</ol>
-<h3 id="6-文字引用"><a href="#6-文字引用" class="headerlink" title="6. 文字引用"></a>6. 文字引用</h3><p>使用 &gt; 表示文字引用。</p>
-<p>示例：</p>
-<blockquote>
-<p>野火烧不尽，春风吹又生。</p>
-</blockquote>
-<h3 id="7-行内代码块"><a href="#7-行内代码块" class="headerlink" title="7. 行内代码块"></a>7. 行内代码块</h3><p>使用 `代码` 表示行内代码块。</p>
-<p>示例：</p>
-<p>让我们聊聊 <code>html</code>。</p>
-<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8.  代码块"></a>8.  代码块</h3><p>使用 四个缩进空格 表示代码块。</p>
-<p>示例：</p>
-<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
-</code></pre>
-<h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
-<p>示例：</p>
-<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&amp;u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&amp;v=4" alt="我的头像"></p>
-<h1 id="Cmd-Markdown-高阶语法手册"><a href="#Cmd-Markdown-高阶语法手册" class="headerlink" title="Cmd Markdown 高阶语法手册"></a>Cmd Markdown 高阶语法手册</h1><h3 id="1-内容目录"><a href="#1-内容目录" class="headerlink" title="1. 内容目录"></a>1. 内容目录</h3><p>在段落中填写 <code>[TOC]</code> 以显示全文内容的目录结构。</p>
-<p>[TOC]</p>
-<h3 id="2-标签分类"><a href="#2-标签分类" class="headerlink" title="2. 标签分类"></a>2. 标签分类</h3><p>在编辑区任意行的列首位置输入以下代码给文稿标签：</p>
-<p>标签： 数学 英语 Markdown</p>
-<p>或者</p>
-<p>Tags： 数学 英语 Markdown</p>
-<h3 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3. 删除线"></a>3. 删除线</h3><p>使用 ~~ 表示删除线。</p>
-<p><del>这是一段错误的文本。</del></p>
-<h3 id="4-注脚"><a href="#4-注脚" class="headerlink" title="4. 注脚"></a>4. 注脚</h3><p>使用 [^keyword] 表示注脚。</p>
-<p>这是一个注脚[^footnote]的样例。</p>
-<p>这是第二个注脚[^footnote2]的样例。</p>
-<h3 id="5-LaTeX-公式"><a href="#5-LaTeX-公式" class="headerlink" title="5. LaTeX 公式"></a>5. LaTeX 公式</h3><p>$ 表示行内公式： </p>
-<p>质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。</p>
-<p>$$ 表示整行公式：</p>
-<p>$$\sum_{i=1}^n a_i=0$$</p>
-<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
-<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
-<p>访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。</p>
-<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>支持四十一种编程语言的语法高亮的显示，行号显示。</p>
-<p>非代码示例：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></tbody></table></figure>
-
-<p>Python 示例：</p>
-<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">''</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>JavaScript 示例：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) {</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></tbody></table></figure>
-
-<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：序列图语法参考"><a href="#更多语法参考：序列图语法参考" class="headerlink" title="更多语法参考：序列图语法参考"></a>更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/">序列图语法参考</a></h4><h3 id="9-甘特图"><a href="#9-甘特图" class="headerlink" title="9. 甘特图"></a>9. 甘特图</h3><p>甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C{Decision}</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></tbody></table></figure>
-
-<h4 id="更多语法参考：Mermaid-序列图语法参考"><a href="#更多语法参考：Mermaid-序列图语法参考" class="headerlink" title="更多语法参考：Mermaid 序列图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams">Mermaid 序列图语法参考</a></h4><h3 id="12-表格支持"><a href="#12-表格支持" class="headerlink" title="12. 表格支持"></a>12. 表格支持</h3><table>
-<thead>
-<tr>
-<th>项目</th>
-<th align="right">价格</th>
-<th align="center">数量</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>计算机</td>
-<td align="right">$1600</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td>手机</td>
-<td align="right">$12</td>
-<td align="center">12</td>
-</tr>
-<tr>
-<td>管线</td>
-<td align="right">$1</td>
-<td align="center">234</td>
-</tr>
-</tbody></table>
-<h3 id="13-定义型列表"><a href="#13-定义型列表" class="headerlink" title="13. 定义型列表"></a>13. 定义型列表</h3><dl><dt>名词 1</dt><dd>定义 1（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><dl><dt>代码块 2</dt><dd>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><pre><code>    代码块（左侧有八个不可见的空格）
-</code></pre>
-<h3 id="14-Html-标签"><a href="#14-Html-标签" class="headerlink" title="14. Html 标签"></a>14. Html 标签</h3><p>本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
-<pre><code>&lt;table&gt;
-    &lt;tr&gt;
-        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
-        &lt;th&gt;星期一&lt;/th&gt;
-        &lt;th&gt;星期二&lt;/th&gt;
-        &lt;th&gt;星期三&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;李强&lt;/td&gt;
-        &lt;td&gt;张明&lt;/td&gt;
-        &lt;td&gt;王平&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</code></pre>
-<table>
-    <tbody><tr>
-        <th rowspan="2">值班人员</th>
-        <th>星期一</th>
-        <th>星期二</th>
-        <th>星期三</th>
-    </tr>
-    <tr>
-        <td>李强</td>
-        <td>张明</td>
-        <td>王平</td>
-    </tr>
-</tbody></table>
-
-<h3 id="15-内嵌图标"><a href="#15-内嵌图标" class="headerlink" title="15. 内嵌图标"></a>15. 内嵌图标</h3><p>本站的图标系统对外开放，在文档中输入</p>
-<pre><code>&lt;i class="icon-weibo"&gt;&lt;/i&gt;
-</code></pre>
-<p>即显示微博的图标： <i class="icon-weibo icon-2x"></i></p>
-<p>替换 上述 <code>i 标签</code> 内的 <code>icon-weibo</code> 以显示不同的图标，例如：</p>
-<pre><code>&lt;i class="icon-renren"&gt;&lt;/i&gt;
-</code></pre>
-<p>即显示人人的图标： <i class="icon-renren icon-2x"></i></p>
-<p>更多的图标和玩法可以参看 <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/">font-awesome</a> 官方网站。</p>
-<h3 id="16-待办事宜-Todo-列表"><a href="#16-待办事宜-Todo-列表" class="headerlink" title="16. 待办事宜 Todo 列表"></a>16. 待办事宜 Todo 列表</h3><p>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：</p>
-<pre><code>- [ ] **Cmd Markdown 开发**
-    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-    - [ ] 支持以 PDF 格式导出文稿
-    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
-    - [x] 改进 LaTex 功能
-        - [x] 修复 LaTex 公式渲染问题
-        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
-- [ ] **七月旅行准备**
-    - [ ] 准备邮轮上需要携带的物品
-    - [ ] 浏览日本免税店的物品
-    - [x] 购买蓝宝石公主号七月一日的船票
-</code></pre>
-<p>对应显示如下待办事宜 Todo 列表：</p>
-<ul>
-<li><input disabled="" type="checkbox"> <strong>Cmd Markdown 开发</strong><ul>
-<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
-<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
-<li><input checked="" disabled="" type="checkbox"> 新增Todo列表功能 <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments">语法参考</a></li>
-<li><input checked="" disabled="" type="checkbox"> 改进 LaTex 功能<ul>
-<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
-<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能 <a href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers">语法参考</a></li>
+<li>人们应该掌握普世的智慧；</li>
+<li>要掌握跨学科的知识；</li>
+<li>终生学习；</li>
+<li>不要当 铁锤人；</li>
+<li>有些事情反过来考虑会变得简单，如：我无法告诉你怎样做一定会成功，但是可以告诉你怎样做一定会失败；</li>
+<li>大多时候说服一个人，从利益出发是最有效的；</li>
+<li>要得到你想要的某样东西，最可靠的办法是让你自己配得起它；</li>
+<li>还讲了一些心理学现象<ul>
+<li>好的激励机制有利于提高工作效率，不恰当的激励机制则能够导致人们在做坏事的时候觉得自己是正当的；</li>
+<li>人类有以德报德、以怨报怨的倾向；</li>
+<li>被剥夺超级反应：失去造成的伤害比得到带来的快乐多得多；</li>
+<li>等等…</li>
 </ul>
 </li>
+<li>不要无意义的去嫉妒别人，建议化嫉妒为力量，去超越别人，如我朋友说的这句话：支持我一路走过来的从来不是什么正能量，而是我的虚荣嫉妒不甘心（个人感觉还是有点过了）。</li>
 </ul>
-</li>
-<li><input disabled="" type="checkbox"> <strong>七月旅行准备</strong><ul>
-<li><input disabled="" type="checkbox"> 准备邮轮上需要携带的物品</li>
-<li><input disabled="" type="checkbox"> 浏览日本免税店的物品</li>
-<li><input checked="" disabled="" type="checkbox"> 购买蓝宝石公主号七月一日的船票</li>
-</ul>
-</li>
-</ul>
-<p>[^footnote]: 这是一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
-<p>[^footnote2]: 这是另一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
+<p>当然了，书里还讲了芒格是怎么投资的，告诉我们穿越到过去，你怎样经营出可口可乐公司，之前的美国次贷危机是怎样产生的等等，有趣的金融故事。</p>
+<p>总结来说：<strong>这是本好书！</strong></p>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>学习</category>
+        <category>读书</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机摄影学习笔记</title>
-    <url>/2021/shoujisheying/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机吧<span class="github-emoji"><span>😮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-]]></content>
-      <categories>
-        <category>摄影</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>随笔</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎</title>
-    <url>/2020/welcome/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="欢迎来到我的网络空间。"><a href="#欢迎来到我的网络空间。" class="headerlink" title="欢迎来到我的网络空间。"></a>欢迎来到我的网络空间。</h2><p>在这里我将记录我学到的、我看到的和我思考的。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文明6</title>
-    <url>/2021/cksd2pdnh000k1sn0f5hxgsf1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="千古一帝"><a href="#千古一帝" class="headerlink" title="千古一帝"></a>千古一帝</h2><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628155033.png" alt="20210628155033"></p>
-<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628160427.png" alt="20210628160427"></p>
-<p><span class="github-emoji"><span>😜</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>文明6</tag>
+        <tag>看书</tag>
       </tags>
   </entry>
   <entry>
     <title>挑战程序设计竞赛</title>
-    <url>/2021/cksd2pdnn000n1sn06ra707g2/</url>
+    <url>/2021/cl3s3k3o4000tasn0dialel85/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="读书笔记：挑战程序设计竞赛（第二版）"><a href="#读书笔记：挑战程序设计竞赛（第二版）" class="headerlink" title="读书笔记：挑战程序设计竞赛（第二版）"></a>读书笔记：挑战程序设计竞赛（第二版）</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>学校里有个老师天天上课阴阳怪气，还老讲他前女友的故事，还不让玩手机。无奈找了一本书看看，就是这本了。</p>
 <h2 id="1-准备篇"><a href="#1-准备篇" class="headerlink" title="1.准备篇"></a>1.准备篇</h2><h3 id="POJ1852"><a href="#POJ1852" class="headerlink" title="POJ1852"></a>POJ1852</h3><p>我最早在大一的时候看到了这道题目，我还去问了当时的C语言老师怎么写，当然了，没有回复我答案。回到题目上来，这道题目想通了就很简单咯。</p>
 <p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210519193153498-1621423916448.png" alt="image-20210519193153498"></p>
@@ -503,25 +568,8 @@
       </tags>
   </entry>
   <entry>
-    <title>静享云南慢时光</title>
-    <url>/2020/yunnan/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从云南回来正好一个月的时间，决定在还没有遗忘旅行的细节前将这次云南之旅记录下来，毕竟这是难得的一次全程由自己做攻略的旅行经历。尽量以时间线的顺序进行记录，防止遗漏，过程可能有流水账之嫌，事无巨细，哈哈哪怕没人看我想我们两个看的时候都会笑出声，尤其是以我的zz小伙伴那种老年痴呆患者的记性。整个旅途我们可以说是很舒服很愉快的，但依旧有值得注意的地方。</p>
-<span id="more"></span>
-
-<p>编不下去了，身为穷逼的我，哪里有钱去旅游。</p>
-]]></content>
-      <categories>
-        <category>旅行</category>
-        <category>国内</category>
-      </categories>
-      <tags>
-        <tag>旅行</tag>
-        <tag>国内</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Todo</title>
-    <url>/2021/cksd2pdnv000t1sn03dfkampf/</url>
+    <url>/2021/cl3s3k3ny000lasn0hsi869wh/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="清单"><a href="#清单" class="headerlink" title="清单"></a>清单</h1><p>人都懒，难以自律，当然了我也是。不过啊，我这人比较信守承诺，正好将任务清单写下来，督促我完成，既然答应了就应该完成，纵使这是和我自己的约定。</p>
 <hr>
 <ul>
@@ -787,57 +835,22 @@
       </tags>
   </entry>
   <entry>
-    <title>太瘦了</title>
-    <url>/2021/cksd2pdo0000v1sn087ord6wj/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="因"><a href="#因" class="headerlink" title="因"></a>因</h2><p>在五月份的时候，我打算练个腹肌出来，但是我只喜欢跑步，而且在宿舍里也不好练一些练腹肌的动作</p>
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>然后就开始操作了，从五月五号开始，到五月份结束，中间断断续续的跑了12天，每天四公里。饮食：早上起来了就吃早餐；中午随意吃，不过不加饭了，食堂阿姨盛多少饭就吃多少；晚上吃3-4片全麦面包或者2-3个馒头，如果当天晚上不跑步就想吃啥吃啥，如麻辣烫<span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>；每天摄入两杯咖啡（24g咖啡豆的量）。除此之外就没有其他能量摄入了，也没有其他额外运动了，没有课我就待在寝室。</p>
-<h2 id="果"><a href="#果" class="headerlink" title="果"></a>果</h2><p>算是成功了吧，确实是有腹肌了，但是，我觉得就是瘦出来的，我那一顿操作下来，我从120斤变成了，105斤。emm这个体重对我来说不是很友好。所以，想减肥的同志们啊，坚持就是胜利。</p>
-<img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/8F6D35649AE3E879A185642CD1759883.jpg" alt="img" style="zoom: 33%;">
-
+    <title>文明6</title>
+    <url>/2021/cl3s3k3o9000xasn04vsz3xmr/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="千古一帝"><a href="#千古一帝" class="headerlink" title="千古一帝"></a>千古一帝</h2><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628155033.png" alt="20210628155033"></p>
+<p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/20210628160427.png" alt="20210628160427"></p>
+<p><span class="github-emoji"><span>😜</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>游戏</category>
       </categories>
       <tags>
-        <tag>体重</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>穷查理宝典</title>
-    <url>/2021/cksd2pdo3000z1sn06lt682el/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="读书笔记：穷查理宝典"><a href="#读书笔记：穷查理宝典" class="headerlink" title="读书笔记：穷查理宝典"></a>读书笔记：穷查理宝典</h1><p>其实这应该改成听书笔记，我没有买这本书，是在手机上听的，不过有闲钱了，我一定会买这本书。断断续续吧，最近才听完这本书，里面一些观点给我造成很大的震撼。凭我记忆啊，让我想想，书上都教了我什么？</p>
-<p>额，</p>
-<ul>
-<li>人们应该掌握普世的智慧；</li>
-<li>要掌握跨学科的知识；</li>
-<li>终生学习；</li>
-<li>不要当 铁锤人；</li>
-<li>有些事情反过来考虑会变得简单，如：我无法告诉你怎样做一定会成功，但是可以告诉你怎样做一定会失败；</li>
-<li>大多时候说服一个人，从利益出发是最有效的；</li>
-<li>要得到你想要的某样东西，最可靠的办法是让你自己配得起它；</li>
-<li>还讲了一些心理学现象<ul>
-<li>好的激励机制有利于提高工作效率，不恰当的激励机制则能够导致人们在做坏事的时候觉得自己是正当的；</li>
-<li>人类有以德报德、以怨报怨的倾向；</li>
-<li>被剥夺超级反应：失去造成的伤害比得到带来的快乐多得多；</li>
-<li>等等…</li>
-</ul>
-</li>
-<li>不要无意义的去嫉妒别人，建议化嫉妒为力量，去超越别人，如我朋友说的这句话：支持我一路走过来的从来不是什么正能量，而是我的虚荣嫉妒不甘心（个人感觉还是有点过了）。</li>
-</ul>
-<p>当然了，书里还讲了芒格是怎么投资的，告诉我们穿越到过去，你怎样经营出可口可乐公司，之前的美国次贷危机是怎样产生的等等，有趣的金融故事。</p>
-<p>总结来说：<strong>这是本好书！</strong></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-        <category>读书</category>
-      </categories>
-      <tags>
-        <tag>看书</tag>
+        <tag>文明6</tag>
       </tags>
   </entry>
   <entry>
     <title>network</title>
-    <url>/2021/cksd2pdpr00251sn09jsha78a/</url>
+    <url>/2021/cl3s3k3p10028asn06hkw1eta/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>之前也学过计算机网络，那时候疫情在家上的网课，没怎么认真学。一直也没有太把这个当回事，上个月面试被问到了这个，当时连网络有哪些层都答不上来，就挺尴尬的。前几天，在知乎刷到，有人推荐<a href="https://www.bilibili.com/video/BV1c4411d7jb?p=1">湖南科技大学的计算机网络课程</a>很不错，就趁着周末空闲学了一下，然后写下了这份笔记。笔记里的所有图片都是我在视频里截图的，笔记不对网络涉及的算法深究，由于我不考研，也就没有必要死记住那些网络中涉及的参数、视频中出现的考研题目和各协议的报文格式（我可没有背书的天赋）。</p>
 <h2 id="1-概况"><a href="#1-概况" class="headerlink" title="1. 概况"></a>1. 概况</h2><h3 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h3><p><img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/image-20210515160531889.png" alt="image-20210515160531889"></p>
 <p>​    报文传输已经很少使用了，因为需要路由器一次缓存所有数据，现在的数据都挺大的，这种缓存的行为很不友好。</p>
@@ -1237,331 +1250,325 @@
       </tags>
   </entry>
   <entry>
-    <title>C#</title>
-    <url>/2021/ckvgnm6a00000d4n03kbg4rwe/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="1-C-和-NET"><a href="#1-C-和-NET" class="headerlink" title="1. C#和.NET"></a>1. C#和.NET</h1><p>​        .NET是一个平台（有点像Java的JRE），C#是一门语言。C#是在.NET上运行的。.NET里有个东西叫<strong>通用语言运行平台</strong>（<strong>Common Language Runtime</strong>，简称<strong>CLR</strong>），CLR是微软为他们的.NET的虚拟机所选用的名称（就相当于Java的JDK）。.NET上不止可以跑C#这一个语言，只要这个语言满足<strong>公用语言规范 Common Language Specification CLS</strong> 即可，如：VB，VC都可以在.NET上跑。</p>
-<h1 id="2-C"><a href="#2-C" class="headerlink" title="2. C#"></a>2. C#</h1><h3 id="2-1-注释"><a href="#2-1-注释" class="headerlink" title="2.1 注释"></a>2.1 注释</h3><ul>
-<li><p>避免在 <strong>“//“</strong> 之后的单行注解中使用反斜杠符号  <strong>“ \ “</strong> 。因为反斜杠符号 <strong>“ \ ”</strong> 在 C# 中是一个续行符，会把下一行的代码拼接上来。这样，下一行代码直接被 <strong>“//”</strong> 变成注释了。</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Console.WriteLine(“The result is:{0}” , // \ </span><br><span class="line">                  150 );</span><br><span class="line">/*上面代码直接变成了：</span><br><span class="line">	Console.WriteLine(“The result is:{0}” , // 150 );</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure></li>
-<li><p>分割符 <em><em>“ /</em> “</em>* 和 <strong>” <em>/ “</em>* 之间的注释不能有嵌套注释。这是因为C#编译器从遇到第一个分割符 *<em>“ /</em> “</strong> 开始，将忽略下一个 <em><em>“ /</em> “</em>* ，直到遇到 *<em>” <em>/ “</em></em> 才认为注释结束，那么多余的 *<em>” <em>/ “</em></em> 就会报错。</p>
-</li>
+    <title>HelloMarkdown</title>
+    <url>/2021/cl3s3k3n60001asn00mhv5wg7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Basic-Markdown-Syntax"><a href="#Basic-Markdown-Syntax" class="headerlink" title="Basic Markdown Syntax"></a>Basic Markdown Syntax</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><blockquote>
+<p>区块引用</p>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<p><code>标记</code></p>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// 代码块</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">	std::cout &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; std::endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p><em>斜体</em> <em>斜体</em></p>
+<p><strong>粗体</strong> <strong>粗体</strong></p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
 </ul>
-<h3 id="2-2-类"><a href="#2-2-类" class="headerlink" title="2.2 类"></a>2.2 类</h3><ul>
-<li>类和结构同样都包含了自己的成员，但它们之间最主要的区别在于：类是引用类型，而结构是值类型。</li>
-<li>类的修饰符<ul>
-<li>new     仅允许在嵌套类声明时使用，表明类中隐藏了由基类中继承而来的、与基类中同名的成员</li>
-<li>public 表示不限制对该类的访问</li>
-<li>protected 表示只能从所在类和所在类派生的子类进行访问</li>
-<li>internal 只有其所在类才能访问</li>
-<li>private 只有对包 .Net 中的应用程序或库才能访问</li>
-<li>abstract 抽象类，不允许建立类的实例</li>
-<li>sealed 密封类，不允许被继承</li>
-<li>==如果在声明中没有出现成员的访问修饰符，按照默认方式成员为私有的（private）==</li>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
 </ul>
-</li>
-<li>构造函数<ul>
-<li>任何构造函数的执行都隐式地调用了系统提供默认的构造函数 base()</li>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
 </ul>
-</li>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<hr>
+<hr>
+<hr>
+<ul>
+<li><input disabled="" type="checkbox"> a</li>
+<li><input checked="" disabled="" type="checkbox"> b</li>
+<li><input disabled="" type="checkbox"> c</li>
+<li><input disabled="" type="checkbox"> d</li>
 </ul>
-<h3 id="2-3-变量"><a href="#2-3-变量" class="headerlink" title="2.3 变量"></a>2.3 变量</h3><ul>
-<li>静态变量、非静态变量、数组元素都推荐在初始化时赋值。</li>
+<p><a href="https://duckduckgo.com/">DuckDuckGo</a></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/8/88/DuckDuckGo_logo.svg" alt="DuckDuckGo"></p>
+<p>typora行内公式：</p>
+<p>​    偏好中勾选内联公式，重启后，输入$，按Esc，会自动补上个 ＄，然后在两个＄之间输入公式</p>
+<p>如何退出代码块：</p>
+<p>​    按两次回车</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown测试</title>
+    <url>/2021/cl3s3k3o7000wasn03jnj3zdg/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
+<h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1. 斜体和粗体"></a>1. 斜体和粗体</h3><p>使用 * 和 ** 表示斜体和粗体。</p>
+<p>示例：</p>
+<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
+<span id="more"></span>
+
+<h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
+<p>示例：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">============================</span><br><span class="line"></span><br><span class="line">这是一个二级标题</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></tbody></table></figure>
+
+<p>你也可以选择在行首加井号表示不同级别的标题 (H1-H6)，例如：# H1, ## H2, ### H3，#### H4。</p>
+<h3 id="3-外链接"><a href="#3-外链接" class="headerlink" title="3. 外链接"></a>3. 外链接</h3><p>使用 [描述](链接地址) 为文字增加外链接。</p>
+<p>示例：</p>
+<p>这是去往 <a href="https://xkstart.xyz/">本人博客</a> 的链接。</p>
+<h3 id="4-无序列表"><a href="#4-无序列表" class="headerlink" title="4. 无序列表"></a>4. 无序列表</h3><p>使用 *，+，- 表示无序列表。</p>
+<p>示例：</p>
+<ul>
+<li>无序列表项 一</li>
+<li>无序列表项 二</li>
+<li>无序列表项 三</li>
 </ul>
-<h3 id="2-4-类型转换"><a href="#2-4-类型转换" class="headerlink" title="2.4 类型转换"></a>2.4 类型转换</h3><ul>
-<li>隐式转换<ul>
-<li>其它整型值不能自动转换为 char 类型。</li>
-<li>隐式枚举转换允许把十进制整数 0 转换成任何枚举类型，对应其它的整数则不存在这种隐式转换。</li>
-<li>隐式引用转换。能否向上转换？</li>
-</ul>
-</li>
-<li>显式转换<ul>
-<li>编译器将针对转换进行溢出检测，如果没有发生溢出，转换成功，否则抛出一个 OverflowException 异常。</li>
-</ul>
-</li>
-<li>C#采用 Unicode 字符集存储字符。</li>
-</ul>
-<h3 id="2-5-表达式"><a href="#2-5-表达式" class="headerlink" title="2.5 表达式"></a>2.5 表达式</h3><ul>
-<li>加法运算<ul>
-<li>代表合并：加法操作符作用于 delegate 类型的变量。<ul>
-<li>D operator +(D x, D y);<pre><code>其中D是一个 delegate 类型。式子中如果两个操作数是同一 delegate 类型 D 时，则加法操作符执行代表合并运算，如果第一个操作数为 null ，那么结果是第二个操作数的值。反之，如果第二个操 作数为 null 则结果是第一个操作数的值。
+<h3 id="5-有序列表"><a href="#5-有序列表" class="headerlink" title="5. 有序列表"></a>5. 有序列表</h3><p>使用数字和点表示有序列表。</p>
+<p>示例：</p>
+<ol>
+<li>有序列表项 一</li>
+<li>有序列表项 二</li>
+<li>有序列表项 三</li>
+</ol>
+<h3 id="6-文字引用"><a href="#6-文字引用" class="headerlink" title="6. 文字引用"></a>6. 文字引用</h3><p>使用 &gt; 表示文字引用。</p>
+<p>示例：</p>
+<blockquote>
+<p>野火烧不尽，春风吹又生。</p>
+</blockquote>
+<h3 id="7-行内代码块"><a href="#7-行内代码块" class="headerlink" title="7. 行内代码块"></a>7. 行内代码块</h3><p>使用 `代码` 表示行内代码块。</p>
+<p>示例：</p>
+<p>让我们聊聊 <code>html</code>。</p>
+<h3 id="8-代码块"><a href="#8-代码块" class="headerlink" title="8.  代码块"></a>8.  代码块</h3><p>使用 四个缩进空格 表示代码块。</p>
+<p>示例：</p>
+<pre><code>这是一个代码块，此行左侧有四个不可见的空格。
 </code></pre>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>除法运算<ul>
-<li>在除法运算过程中，默认的返回值的类型与精度最高的操作数类型相同。比如，5/2的结果为 2，而5.0/2 结果为 2.5。如果两个整数类型的变量相除又不能整除的话，返回的结果是不大于相除之值的最大整数。</li>
-</ul>
-</li>
-<li>比较运算<ul>
-<li>如果有一个操作数为 NAN(空)那么除 <strong>“ != ”</strong> 外所有操作符结果为 false，<strong>“ != ”</strong> 的运算结果为 true ，对于任何两个操作数 <strong>“ x!=y ”</strong> 总等价于 <strong>“ !(x == y) ”</strong> 。可是当一个 或两个操作数为 NaN(空)时， &lt; ，&gt; ，&lt;= 和&gt;= 操作符的结果和其相反操作符的逻辑非的结果是不同的。如， x 或 y 为 NaN ，则 x&lt;y 总是 false 的 ，但是 !(x == y) 为 true。</li>
-<li>正零和负零被认为是相等的<ul>
-<li>负无穷被认为小于其它任何值，只是等于另一个负无穷 </li>
-<li>正无穷被认为大于其它任何值，只是等于另一个正无穷</li>
-</ul>
-</li>
-<li>当操作数为 bool 类型时 != 操作符和 ^ 操作符有相等的结果。</li>
-<li>下列条件之一成立则认为两个字符串值相等<ul>
-<li>两个字符串值都为 null</li>
-<li>两个字符串是字符串长度相同 对应的字符序列也相同的非空字符串 </li>
-</ul>
-</li>
-<li><strong>注意：</strong>字符串等价操作符比较的是两个字符串的值，而不是字符串引用。当两个单独的字符串实例含有相同的字符串序列，则认为这两个字符串的值相等。引用类型等价操作符可以用于比较两个字符串引用，不是比较两个字符串的值。</li>
-</ul>
-</li>
-<li>as操作符<ul>
-<li>as 操作符用于通过引用转换或装箱转换将一个值显式地转换成指定的引用类型。不像显式类型转换， as 不会产生任何异常（顶多报个警告）。 如果转换不可以进行 ，那么结果值为 null 。形如“ e as T ”的运算， e 定是一个表达式且 T 是一个引用类型 。返回值的类型总是 T 的类型，并且结果总是一个值。</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">	{ </span><br><span class="line">        Console.WriteLine(1 is int); </span><br><span class="line">        Console.WriteLine(1 is float); </span><br><span class="line">        Console.WriteLine(1.0 is float); </span><br><span class="line">        Console.WriteLine(1.0 is double);</span><br><span class="line">	}</span><br><span class="line">}</span><br><span class="line">/*</span><br><span class="line">输出为: </span><br><span class="line">	True</span><br><span class="line">	False </span><br><span class="line">	False (由此可以看出来，1.0 默认是double类型)</span><br><span class="line">	True</span><br><span class="line">*/</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="9-插入图像"><a href="#9-插入图像" class="headerlink" title="9.  插入图像"></a>9.  插入图像</h3><p>使用 ![描述](图片链接地址) 插入图像。</p>
+<p>示例：</p>
+<p><img src="https://avatars.githubusercontent.com/u/63174941?s=400&amp;u=4584dd602e791aca03b15222ac8f0d2daf7dc7c2&amp;v=4" alt="我的头像"></p>
+<h1 id="Cmd-Markdown-高阶语法手册"><a href="#Cmd-Markdown-高阶语法手册" class="headerlink" title="Cmd Markdown 高阶语法手册"></a>Cmd Markdown 高阶语法手册</h1><h3 id="1-内容目录"><a href="#1-内容目录" class="headerlink" title="1. 内容目录"></a>1. 内容目录</h3><p>在段落中填写 <code>[TOC]</code> 以显示全文内容的目录结构。</p>
+<p>[TOC]</p>
+<h3 id="2-标签分类"><a href="#2-标签分类" class="headerlink" title="2. 标签分类"></a>2. 标签分类</h3><p>在编辑区任意行的列首位置输入以下代码给文稿标签：</p>
+<p>标签： 数学 英语 Markdown</p>
+<p>或者</p>
+<p>Tags： 数学 英语 Markdown</p>
+<h3 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3. 删除线"></a>3. 删除线</h3><p>使用 ~~ 表示删除线。</p>
+<p><del>这是一段错误的文本。</del></p>
+<h3 id="4-注脚"><a href="#4-注脚" class="headerlink" title="4. 注脚"></a>4. 注脚</h3><p>使用 [^keyword] 表示注脚。</p>
+<p>这是一个注脚[^footnote]的样例。</p>
+<p>这是第二个注脚[^footnote2]的样例。</p>
+<h3 id="5-LaTeX-公式"><a href="#5-LaTeX-公式" class="headerlink" title="5. LaTeX 公式"></a>5. LaTeX 公式</h3><p>$ 表示行内公式： </p>
+<p>质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。</p>
+<p>$$ 表示整行公式：</p>
+<p>$$\sum_{i=1}^n a_i=0$$</p>
+<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
+<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
+<p>访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">MathJax</a> 参考更多使用方法。</p>
+<h3 id="6-加强的代码块"><a href="#6-加强的代码块" class="headerlink" title="6. 加强的代码块"></a>6. 加强的代码块</h3><p>支持四十一种编程语言的语法高亮的显示，行号显示。</p>
+<p>非代码示例：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">$ sudo apt-get install vim-gnome</span><br></pre></td></tr></tbody></table></figure>
 
-<ul>
-<li><p>如果表达式中同时存在着多个逻辑运算符，逻辑非的优先级最高，逻辑与的优先级高于逻辑或。</p>
-</li>
-<li><p>三元操作符：</p>
-<ul>
-<li>条件操作符是向右关联的，也就是说，从左向右分组计算。例如：表达式 <strong>a? b: c? d: e</strong> 将按 **a? b: (c? d: e)**形式执行。</li>
-<li>？：的第一个操作数必须是一个可以隐式转换成 bool 型的表达式或者执行操作符true 类型的表达式，如果上述这两个条件一个也不满足，则发生运行时错误。</li>
-<li>？：的第二和第三个操作数控制了条件表达式的类型。设 x 和 y 分别是第二个和第三个操作数的类型，那么<ul>
-<li>如果 x和 y为同一类型，则该类型即是条件表达式的类型。</li>
-<li>否则，如果从 x到 y存在一个隐式转换，但不存在 y到 x的转换，那么 y是条件表达式的类型。</li>
-<li>否则，如果从 y到 x存在一个隐式转换，但不存在 x到 y的转换，那么 x是条件表达式的类型。</li>
-<li>否则，没有定义任何表达式类型，发生编译时错误。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>自增和自减</p>
-<ul>
-<li>自增和自减操作符又有前后缀之分。对于前缀操作符，遵循的原则是 <strong>“先增减，后使用”</strong> ，而后缀操作符则正好相反，是 <strong>“先使用 后增减”</strong> 。</li>
-<li>自增和自减操作符的操作数必须是一个变量，一个属性访问器或一个索引指示器访问器，而不能是常量或者其它的表达式。<strong>比如 5++和 (x+y)– 都是非法的</strong>。如果操作数是一个访问器，那么这个访问器必须同时支持读和写。</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System; </span><br><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	public static void Main() </span><br><span class="line">    { </span><br><span class="line">        int x = 5; </span><br><span class="line">        int y = x++; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">        y = ++x; </span><br><span class="line">        Console.WriteLine(y);</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">//输出结果为：5，7</span><br></pre></td></tr></tbody></table></figure>
+<p>Python 示例：</p>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">''</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></tbody></table></figure>
 
-<ul>
-<li>checked 和 unchecked 操作符<ul>
-<li>完全不知道unchecked有何意义</li>
-<li>checked 和 unchecked 操作符只影响置于其后括号之中运算的溢出检查。它们不会影响作为表达式结果的被调用的方法成员。</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">class Test </span><br><span class="line">{</span><br><span class="line">	static int F(int x, int y) </span><br><span class="line">    { </span><br><span class="line">        return x * y;</span><br><span class="line">	}</span><br><span class="line">	static int G() </span><br><span class="line">    { </span><br><span class="line">        return checked(F(1000000, 1000000));</span><br><span class="line">	} </span><br><span class="line">}</span><br><span class="line">//G 方法中的 checked 不会影响函数 F 方法中的 X Y 运算，因此 X*Y 运算在默认溢出检查的上下文中</span><br></pre></td></tr></tbody></table></figure>
+<p>JavaScript 示例：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* nth element in the fibonacci series.</span></span><br><span class="line"><span class="comment">* <span class="doctag">@param </span>n &gt;= 0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@return </span>the nth element, &gt;= 0.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fib</span>(<span class="params">n</span>) </span>{</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>, b = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">var</span> tmp;</span><br><span class="line">  <span class="keyword">while</span> (--n &gt;= <span class="number">0</span>) {</span><br><span class="line">    tmp = a;</span><br><span class="line">    a += b;</span><br><span class="line">    b = tmp;</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">return</span> a;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.write(fib(<span class="number">10</span>));</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="2-6-流程控制"><a href="#2-6-流程控制" class="headerlink" title="2.6 流程控制"></a>2.6 流程控制</h3><ul>
-<li>if 语句<ul>
-<li>C#的 if 语句与 C、C++不同，即 if 后的<strong>逻辑表达式必须是布尔类型</strong>的。</li>
-</ul>
-</li>
-<li>switch语句<ul>
-<li>c 和 c++语言允许 switch 语句中 case 标签后不出现 break 语句，但 c#不允许这样，它要求每个标签项后使用 break 语句或跳转语句 goto，即<strong>不允许从一个 case 自动遍历到其它 case</strong> ，否则编译时将报错</li>
-<li>goto case label 跳至标签语句执行 </li>
-<li>goto default 跳至 default 标签执行</li>
-<li>C#可以把字符串当成 常量表达式来使用，所以 switch 语句的控制类型可以是 string 类型</li>
-<li>在 C#中 case 标签的引用值允许是 null</li>
-<li>一般说来每个 switch 项都以 break，goto case 或 goto default 结束，但实际上任何一种不导致“ 遍历 ”的结构都是允许的，例如 ：throw 和 return 语句同样可以跳出控制之外，因而下例是正确的：</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">switch(i)</span><br><span class="line">{ </span><br><span class="line">    case 0: while(true)	F();</span><br><span class="line">	case 1: throw new ArgumentException();</span><br><span class="line">	case 2: return;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="7-流程图"><a href="#7-流程图" class="headerlink" title="7. 流程图"></a>7. 流程图</h3><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br></pre></td></tr></tbody></table></figure>
 
-<ul>
-<li><p>foreach 语句</p>
-<ul>
-<li>循环变量是一个只读型局部变量，如果试图改变它的值或将它作为一个 ref 或 out 类型 的参数传递，都将引发编译时错误。</li>
-</ul>
-</li>
-<li><p>预处理指令</p>
-<ul>
-<li>符号定义（#define）必须放在所有其它语句的前面，或者说是放在所有 实代码 real code 的前面</li>
-</ul>
-</li>
-<li><p>条件编译</p>
-<ul>
-<li>一条#if语句（必须有）</li>
-<li>零或多条#elif语句</li>
-<li>零或一条#else 语句 </li>
-<li>一条#endif语句（必须有）</li>
-</ul>
-</li>
-<li><p>==异常处理==</p>
-<ul>
-<li>太多了，建议看书P96</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-7-面向对象的程序设计"><a href="#2-7-面向对象的程序设计" class="headerlink" title="2.7 面向对象的程序设计"></a>2.7 面向对象的程序设计</h3><ul>
-<li>感觉有点像软件工程</li>
-<li>操作顺序如下：<ul>
-<li>论域分析阶段和应用分析阶段</li>
-<li>依次构建：类和对象层、属性层、服务层、结构层、主题层 </li>
-<li>在设计阶段，主要对系统的四个组成部分进行设计，它们是问题论域部分、用户界面部分、任务管理部分和数据管理部分</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-8-方法"><a href="#2-8-方法" class="headerlink" title="2.8 方法"></a>2.8 方法</h3><ul>
-<li><p>修饰符</p>
-<ul>
-<li>new</li>
-<li>public</li>
-<li>protected</li>
-<li>internal</li>
-<li>private</li>
-<li>static</li>
-<li>virtual</li>
-<li>sealed</li>
-<li>override</li>
-<li>abstract</li>
-<li>extern</li>
-</ul>
-</li>
-<li><p>参数</p>
-<ul>
-<li>值参数：当利用值向方法传递参数时，编译程序给实参的值做一份拷贝，并且将此拷贝传递给该方法。被调用的方法不会修改内存中实参的值，所以使用值参数时，可以保证实际值是安全的。</li>
-<li>引用型参数（以 ref修饰符声明）：当利用引用型参数向方法传递形参时，编译程序将把实际值在内存中的地址传递给方法。</li>
-<li>输出参数（以 out 修饰符声明）：与引用型参数类似，输出型参数也不开辟新的内存区域。与引用型参数的差别在于，调用方法前无需对变量进行初始化。输出型参数用于传递方法返回的数据。</li>
-<li>数组型参数（以 params 修饰符声明）：如果形参表中包含了数组型参数，那么它必须在参数表中位于最后。另外，参数只允许是一维数组。比如，string[] 和 string[] [] 类型都可以作为数组型参数，而 string[,]则不能。最后，数组型参数不能再有 ref 和 out 修饰符。</li>
-</ul>
-</li>
-<li><p>操作符重载</p>
-<ul>
-<li>下列操作符都是可以重载的： +  -  * / ! % ~ &amp;  ++ |   ^  true  &lt;&lt;  false  &gt;&gt;  ==  !=  &gt;   &lt;   &gt;=   &lt;=</li>
-<li>一些操作符是不允许进行重载的 如： =   &amp;&amp;   ||   ?:    new    typeof    sizeof    is</li>
-<li>操作符能重载着实有点强</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-9-域、属性、"><a href="#2-9-域、属性、" class="headerlink" title="2.9 域、属性、"></a>2.9 域、属性、</h3><ul>
-<li><p>域的修饰符可以是：</p>
-<ul>
-<li>new</li>
-<li>public</li>
-<li>protected</li>
-<li>internal</li>
-<li>private</li>
-<li>static</li>
-<li>readonly</li>
-</ul>
-</li>
-<li><p>域的声明中如果加上了 readonly 修饰符，表明该域为只读域。对于只读域我们只能在域的定义中和它所属类的构造函数中进行修改，在其它情况下，域是 “只读” 的。</p>
-</li>
-<li><p>初始化</p>
-<ul>
-<li>在 C#中，系统将为每个未经初始化的变量提供一个默认值</li>
-<li>bool类型默认值为：false</li>
-<li>对于所有引用类型的变量，默认值为 null</li>
-<li>域的默认初始化分为两种情况：对于静态域，类在装载时对其进行初始化；对于非静态域，在类的实例创建时进行初始化。在默认的初始化之前，域的值是不可预测的</li>
-</ul>
-</li>
-<li><p>属性的修饰符有：</p>
-<ul>
-<li>new</li>
-<li>public</li>
-<li>protected</li>
-<li>internal</li>
-<li>private</li>
-<li>static</li>
-<li>virtual</li>
-<li>sealed</li>
-<li>override</li>
-<li>abstract</li>
-</ul>
-</li>
-<li><p>虽然属性和域的语法比较类似，但不能把属性当做变量那样使用，也不能把属性作为引用型参数或输出参数来进行传递</p>
-</li>
-</ul>
-<h3 id="2-10-事件和索引指示器（实话说没看懂）"><a href="#2-10-事件和索引指示器（实话说没看懂）" class="headerlink" title="2.10 事件和索引指示器（实话说没看懂）"></a>2.10 事件和索引指示器（实话说没看懂）</h3><ul>
-<li>事件的修饰符可以是：<ul>
-<li>new</li>
-<li>public</li>
-<li>protected</li>
-<li>internal</li>
-<li>private</li>
-<li>static</li>
-<li>virtual</li>
-<li>sealed</li>
-<li>override</li>
-<li>abstract</li>
-</ul>
-</li>
-<li>static, virtual, override 和 abstract 修饰符同一时刻只能出现一个</li>
-<li>索引指示器可以使用的修饰符有：<ul>
-<li>new</li>
-<li>public</li>
-<li>protected</li>
-<li>internal</li>
-<li>private</li>
-<li>virtual</li>
-<li>sealed</li>
-<li>override</li>
-<li>abstract</li>
-</ul>
-</li>
-<li>大致作用就是：让一个类拥有数组般的索引。</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">class Team</span><br><span class="line">{</span><br><span class="line">    string[] s_name = new string[8];</span><br><span class="line">    public string this[int nIndex]</span><br><span class="line">    {</span><br><span class="line">        get</span><br><span class="line">        {</span><br><span class="line">            return s_name[nIndex];</span><br><span class="line">        }</span><br><span class="line">        set</span><br><span class="line">        {</span><br><span class="line">            s_name[nIndex] = value;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">class Test</span><br><span class="line">{</span><br><span class="line">    public static void Main()</span><br><span class="line">    {</span><br><span class="line">        Team t1 = new Team();</span><br><span class="line">        for (int i = 0; i &lt; 6; i++)</span><br><span class="line">        {</span><br><span class="line">            t1[i] = "" + i;</span><br><span class="line">            Console.WriteLine(t1[i]);</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h4 id="更多语法参考：流程图语法参考"><a href="#更多语法参考：流程图语法参考" class="headerlink" title="更多语法参考：流程图语法参考"></a>更多语法参考：<a href="http://adrai.github.io/flowchart.js/">流程图语法参考</a></h4><h3 id="8-序列图"><a href="#8-序列图" class="headerlink" title="8. 序列图"></a>8. 序列图</h3><h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></tbody></table></figure>
 
+<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: Normal line</span><br><span class="line">B--&gt;C: Dashed line</span><br><span class="line">C-&gt;&gt;D: Open arrow</span><br><span class="line">D--&gt;&gt;A: Dashed open arrow</span><br></pre></td></tr></tbody></table></figure>
 
+<h4 id="更多语法参考：序列图语法参考"><a href="#更多语法参考：序列图语法参考" class="headerlink" title="更多语法参考：序列图语法参考"></a>更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/">序列图语法参考</a></h4><h3 id="9-甘特图"><a href="#9-甘特图" class="headerlink" title="9. 甘特图"></a>9. 甘特图</h3><p>甘特图内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="2-11-继承"><a href="#2-11-继承" class="headerlink" title="2.11 继承"></a>2.11 继承</h3><ul>
-<li><p>构造函数和析构函数不能被继承，除此以外的其它成员，不论对它们定义了怎样的访问方式，都能被继承。基类中成员的访问方式只能决定派生类能否访问它们</p>
-</li>
-<li><p>派生类如果定义了与继承而来的成员同名的新成员，就可以覆盖已继承的成员。但这并不因为这派生类删除了这些成员，只是不能再访问这些成员</p>
-</li>
-<li><p>当类中的方法声明前加上了 virtual 修饰符，我们称之为虚方法，反之为非虚。使用了 virtual 修饰符后，不允许再有 static, abstract, 或 override 修饰符。</p>
+<h4 id="更多语法参考：甘特图语法参考"><a href="#更多语法参考：甘特图语法参考" class="headerlink" title="更多语法参考：甘特图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams">甘特图语法参考</a></h4><h3 id="10-Mermaid-流程图"><a href="#10-Mermaid-流程图" class="headerlink" title="10. Mermaid 流程图"></a>10. Mermaid 流程图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">A[Hard edge] --&gt;|Link text| B(Round edge)</span><br><span class="line">B --&gt; C{Decision}</span><br><span class="line">C --&gt;|One| D[Result one]</span><br><span class="line">C --&gt;|Two| E[Result two]</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：Mermaid-流程图语法参考"><a href="#更多语法参考：Mermaid-流程图语法参考" class="headerlink" title="更多语法参考：Mermaid 流程图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax">Mermaid 流程图语法参考</a></h4><h3 id="11-Mermaid-序列图"><a href="#11-Mermaid-序列图" class="headerlink" title="11. Mermaid 序列图"></a>11. Mermaid 序列图</h3><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Alice-&gt;John: Hello John, how are you?</span><br><span class="line">loop every minute</span><br><span class="line">    John--&gt;Alice: Great!</span><br><span class="line">end</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="更多语法参考：Mermaid-序列图语法参考"><a href="#更多语法参考：Mermaid-序列图语法参考" class="headerlink" title="更多语法参考：Mermaid 序列图语法参考"></a>更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams">Mermaid 序列图语法参考</a></h4><h3 id="12-表格支持"><a href="#12-表格支持" class="headerlink" title="12. 表格支持"></a>12. 表格支持</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th align="right">价格</th>
+<th align="center">数量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>计算机</td>
+<td align="right">$1600</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td align="right">$12</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td align="right">$1</td>
+<td align="center">234</td>
+</tr>
+</tbody></table>
+<h3 id="13-定义型列表"><a href="#13-定义型列表" class="headerlink" title="13. 定义型列表"></a>13. 定义型列表</h3><dl><dt>名词 1</dt><dd>定义 1（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><dl><dt>代码块 2</dt><dd>这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）</dd></dl><pre><code>    代码块（左侧有八个不可见的空格）
+</code></pre>
+<h3 id="14-Html-标签"><a href="#14-Html-标签" class="headerlink" title="14. Html 标签"></a>14. Html 标签</h3><p>本站支持在 Markdown 语法中嵌套 Html 标签，譬如，你可以用 Html 写一个纵跨两行的表格：</p>
+<pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan="2"&gt;值班人员&lt;/th&gt;
+        &lt;th&gt;星期一&lt;/th&gt;
+        &lt;th&gt;星期二&lt;/th&gt;
+        &lt;th&gt;星期三&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;李强&lt;/td&gt;
+        &lt;td&gt;张明&lt;/td&gt;
+        &lt;td&gt;王平&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<table>
+    <tbody><tr>
+        <th rowspan="2">值班人员</th>
+        <th>星期一</th>
+        <th>星期二</th>
+        <th>星期三</th>
+    </tr>
+    <tr>
+        <td>李强</td>
+        <td>张明</td>
+        <td>王平</td>
+    </tr>
+</tbody></table>
+
+<h3 id="15-内嵌图标"><a href="#15-内嵌图标" class="headerlink" title="15. 内嵌图标"></a>15. 内嵌图标</h3><p>本站的图标系统对外开放，在文档中输入</p>
+<pre><code>&lt;i class="icon-weibo"&gt;&lt;/i&gt;
+</code></pre>
+<p>即显示微博的图标： <i class="icon-weibo icon-2x"></i></p>
+<p>替换 上述 <code>i 标签</code> 内的 <code>icon-weibo</code> 以显示不同的图标，例如：</p>
+<pre><code>&lt;i class="icon-renren"&gt;&lt;/i&gt;
+</code></pre>
+<p>即显示人人的图标： <i class="icon-renren icon-2x"></i></p>
+<p>更多的图标和玩法可以参看 <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/icons/">font-awesome</a> 官方网站。</p>
+<h3 id="16-待办事宜-Todo-列表"><a href="#16-待办事宜-Todo-列表" class="headerlink" title="16. 待办事宜 Todo 列表"></a>16. 待办事宜 Todo 列表</h3><p>使用带有 [ ] 或 [x] （未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法，例如：</p>
+<pre><code>- [ ] **Cmd Markdown 开发**
+    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+    - [ ] 支持以 PDF 格式导出文稿
+    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
+    - [x] 改进 LaTex 功能
+        - [x] 修复 LaTex 公式渲染问题
+        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
+- [ ] **七月旅行准备**
+    - [ ] 准备邮轮上需要携带的物品
+    - [ ] 浏览日本免税店的物品
+    - [x] 购买蓝宝石公主号七月一日的船票
+</code></pre>
+<p>对应显示如下待办事宜 Todo 列表：</p>
 <ul>
-<li>对于非虚的方法，无论被其所在类的实例调用，还是被这个类的派生类的实例调用，方法的执行方式不变。 而对于虚方法，它的执行方式可以被派生类改变，这种改变是通过方法的重载来实现的</li>
+<li><input disabled="" type="checkbox"> <strong>Cmd Markdown 开发</strong><ul>
+<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
+<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
+<li><input checked="" disabled="" type="checkbox"> 新增Todo列表功能 <a href="https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments">语法参考</a></li>
+<li><input checked="" disabled="" type="checkbox"> 改进 LaTex 功能<ul>
+<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
+<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能 <a href="http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers">语法参考</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="3-else"><a href="#3-else" class="headerlink" title="3. else"></a>3. else</h2><ul>
-<li><p>C# 中字符串前面添加@符号</p>
-<ul>
-<li>添加@符号是为了后面所包含的字符串的完整性，解决因为\符号而可能导致的转义现象，而表达错含义。<br>例如：string path = “C:\dos\lock.exe”;<br>保证安全使用了string path = @ “C:\dos\lock.exe”;</li>
-</ul>
 </li>
-<li><p>String 和 string的区别</p>
-<ul>
-<li>string是c#中System.String的别名。所以从技术上讲，没有区别。就像int对System.Int32。</li>
+<li><input disabled="" type="checkbox"> <strong>七月旅行准备</strong><ul>
+<li><input disabled="" type="checkbox"> 准备邮轮上需要携带的物品</li>
+<li><input disabled="" type="checkbox"> 浏览日本免税店的物品</li>
+<li><input checked="" disabled="" type="checkbox"> 购买蓝宝石公主号七月一日的船票</li>
 </ul>
 </li>
 </ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">object:  System.Object</span><br><span class="line">string:  System.String</span><br><span class="line">bool:    System.Boolean</span><br><span class="line">byte:    System.Byte</span><br><span class="line">sbyte:   System.SByte</span><br><span class="line">short:   System.Int16</span><br><span class="line">ushort:  System.UInt16</span><br><span class="line">int:     System.Int32</span><br><span class="line">uint:    System.UInt32</span><br><span class="line">long:    System.Int64</span><br><span class="line">ulong:   System.UInt64</span><br><span class="line">float:   System.Single</span><br><span class="line">double:  System.Double</span><br><span class="line">decimal: System.Decimal</span><br><span class="line">char:    System.Char</span><br></pre></td></tr></tbody></table></figure>
+<p>[^footnote]: 这是一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
+<p>[^footnote2]: 这是另一个 <em>注脚</em> 的 <strong>文本</strong>。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello Hexo</title>
+    <url>/2021/cl3s3k3ns000easn09ke27pv7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
-<ul>
-<li>异步编程<ul>
-<li>被<code>async</code>修饰的方法即为异步方法。</li>
-<li>若一个方法包含异步方法，则这个方法也为异步方法，即异步方法具有传染性。</li>
-<li>在异步方法中才能使用<code>await</code></li>
-<li><code>await</code> 关键字提供了一种非阻塞方式来启动任务，然后在此任务完成时继续执行；大致作用就是，当当前方法执行到<code>await</code>时，会等待<code>await</code>的异步方法执行完，再继续往下执行。</li>
-<li>在异步方法中不要使用Thread.Sleep()，因为他会阻塞调用线程，要使用await Task.Delay()</li>
-<li><a href="https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/concepts/async/">异步编程文档</a></li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line"></span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//将可以异步执行的独立操作移动到前面</span><br><span class="line">Coffee cup = PourCoffee();</span><br><span class="line">Console.WriteLine("Coffee is ready");</span><br><span class="line"></span><br><span class="line">Task&lt;Egg&gt; eggsTask = FryEggsAsync(2);</span><br><span class="line">Task&lt;Bacon&gt; baconTask = FryBaconAsync(3);</span><br><span class="line">Task&lt;Toast&gt; toastTask = ToastBreadAsync(2);</span><br><span class="line"></span><br><span class="line">Toast toast = await toastTask;</span><br><span class="line">ApplyButter(toast);</span><br><span class="line">ApplyJam(toast);</span><br><span class="line">Console.WriteLine("Toast is ready");</span><br><span class="line">Juice oj = PourOJ();</span><br><span class="line">Console.WriteLine("Oj is ready");</span><br><span class="line"></span><br><span class="line">Egg eggs = await eggsTask;</span><br><span class="line">Console.WriteLine("Eggs are ready");</span><br><span class="line">Bacon bacon = await baconTask;</span><br><span class="line">Console.WriteLine("Bacon is ready");</span><br><span class="line"></span><br><span class="line">Console.WriteLine("Breakfast is ready!");</span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
 
-<ul>
-<li>建议使用方法二<ul>
-<li>方法一和方法二花费的时间差不多，但是方法二占用的内存比方法一少很多</li>
-<li>原因暂时未知</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">//读取一个文件夹下的所有文件并计算出字符长总长度</span><br><span class="line">using System;</span><br><span class="line">using System.IO;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Linq;</span><br><span class="line"></span><br><span class="line">namespace whenall</span><br><span class="line">{</span><br><span class="line">    class Program</span><br><span class="line">    {</span><br><span class="line">        static async Task Main(string[] args)</span><br><span class="line">        {</span><br><span class="line">            DateTime beforeDT = System.DateTime.Now;</span><br><span class="line"></span><br><span class="line">            /*此为暴力循环，适合只有少数文件时</span><br><span class="line">            Task&lt;string&gt; t1= File.ReadAllTextAsync(@"e:\temp\1.txt");</span><br><span class="line">            Task&lt;string&gt; t2= File.ReadAllTextAsync(@"e:\temp\2.txt");</span><br><span class="line">            Task&lt;string&gt; t3= File.ReadAllTextAsync(@"e:\temp\3.txt");</span><br><span class="line">            string []vs = await Task.WhenAll(t1,t2,t3);</span><br><span class="line">            Console.WriteLine(vs[0]);</span><br><span class="line">            Console.WriteLine(vs[1]);</span><br><span class="line">            Console.WriteLine(vs[2]);</span><br><span class="line">            */</span><br><span class="line"></span><br><span class="line">			//方法一开始</span><br><span class="line">            string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            Task&lt;string&gt;[] vs = new Task&lt;string&gt;[files.Length];</span><br><span class="line">            for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                var s = File.ReadAllTextAsync(files[i]);</span><br><span class="line">                vs[i] = s;</span><br><span class="line">            }</span><br><span class="line">            string[] st = await Task.WhenAll(vs);</span><br><span class="line">            int sum = 0;</span><br><span class="line">            for (int i = 0; i &lt; st.Length; i++)</span><br><span class="line">            {</span><br><span class="line">                sum += st[i].Length;</span><br><span class="line">            }</span><br><span class="line">            Console.WriteLine(sum);</span><br><span class="line">            //方法一结束</span><br><span class="line"></span><br><span class="line">            //方法二</span><br><span class="line">            //string[] files = Directory.GetFiles(@"e:\temp");</span><br><span class="line">            //Task&lt;int&gt;[] vs = new Task&lt;int&gt;[files.Length];</span><br><span class="line">            //for (int i = 0; i &lt; files.Length; i++)</span><br><span class="line">            //{</span><br><span class="line">            //    vs[i] = getstringcount(files[i]);</span><br><span class="line">            //}</span><br><span class="line">            //int[] counts = await Task.WhenAll(vs);</span><br><span class="line">            //Console.WriteLine(counts.Sum());</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            DateTime afterDT = System.DateTime.Now;</span><br><span class="line">            TimeSpan ts = afterDT.Subtract(beforeDT);</span><br><span class="line">            Console.WriteLine("DateTime costed is: {0}ms", ts.TotalMilliseconds);</span><br><span class="line">            Console.ReadLine();</span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">        //static async Task&lt;int&gt; getstringcount(string path)</span><br><span class="line">        //{</span><br><span class="line">        //    string s = await File.ReadAllTextAsync(path);</span><br><span class="line">        //    return s.Length;</span><br><span class="line">        //}</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机摄影学习笔记</title>
+    <url>/2021/shoujisheying/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>买个好点的手机吧<span class="github-emoji"><span>😮</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>随笔</tag>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太瘦了</title>
+    <url>/2021/cl3s3k3o0000oasn0clo65n8e/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="因"><a href="#因" class="headerlink" title="因"></a>因</h2><p>在五月份的时候，我打算练个腹肌出来，但是我只喜欢跑步，而且在宿舍里也不好练一些练腹肌的动作</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>然后就开始操作了，从五月五号开始，到五月份结束，中间断断续续的跑了12天，每天四公里。饮食：早上起来了就吃早餐；中午随意吃，不过不加饭了，食堂阿姨盛多少饭就吃多少；晚上吃3-4片全麦面包或者2-3个馒头，如果当天晚上不跑步就想吃啥吃啥，如麻辣烫<span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>；每天摄入两杯咖啡（24g咖啡豆的量）。除此之外就没有其他能量摄入了，也没有其他额外运动了，没有课我就待在寝室。</p>
+<h2 id="果"><a href="#果" class="headerlink" title="果"></a>果</h2><p>算是成功了吧，确实是有腹肌了，但是，我觉得就是瘦出来的，我那一顿操作下来，我从120斤变成了，105斤。emm这个体重对我来说不是很友好。所以，想减肥的同志们啊，坚持就是胜利。</p>
+<img src="https://gitee.com/yueshang-anran/jpg/raw/master/img/8F6D35649AE3E879A185642CD1759883.jpg" alt="img" style="zoom: 33%;">
 
 ]]></content>
       <categories>
-        <category>学习</category>
-        <category>C#</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>语言</tag>
+        <tag>体重</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>静享云南慢时光</title>
+    <url>/2020/yunnan/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>从云南回来正好一个月的时间，决定在还没有遗忘旅行的细节前将这次云南之旅记录下来，毕竟这是难得的一次全程由自己做攻略的旅行经历。尽量以时间线的顺序进行记录，防止遗漏，过程可能有流水账之嫌，事无巨细，哈哈哪怕没人看我想我们两个看的时候都会笑出声，尤其是以我的zz小伙伴那种老年痴呆患者的记性。整个旅途我们可以说是很舒服很愉快的，但依旧有值得注意的地方。</p>
+<span id="more"></span>
+
+<p>编不下去了，身为穷逼的我，哪里有钱去旅游。</p>
+]]></content>
+      <categories>
+        <category>旅行</category>
+        <category>国内</category>
+      </categories>
+      <tags>
+        <tag>旅行</tag>
+        <tag>国内</tag>
       </tags>
   </entry>
 </search>
